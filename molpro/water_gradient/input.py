@@ -19,7 +19,7 @@ inp = {
 import qcelemental as qcel
 
 inp = qcel.models.ResultInput(**inp)
-print(inp)
+#print(inp)
 
 config = qcng.get_config()
 qcng.programs.molpro._format_input(inp, config)
