@@ -34,7 +34,7 @@ def get_test_case_filenames(program, test_case):
     """
 
     filenames = {}
-    for f in INFO[program][test_case]:
+    for f in INFO[program]["test_cases"][test_case]:
         filenames[f] = os.path.join(INFO[program]["base_folder"], test_case, f)
 
     return filenames

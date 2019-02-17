@@ -3,12 +3,7 @@ QCEngineVault
 A collection of input and output files for QCEngine parsers.
 """
 
-# Make Python 2 and 3 imports work the same
-# Safe to remove with Python 3-only code
-from __future__ import absolute_import
-
-# Add imports here
-from .qcenginevault import *
+from .main import get_required_files, list_test_cases, list_programs, get_test_case_filenames
 
 # Handle versioneer
 from ._version import get_versions

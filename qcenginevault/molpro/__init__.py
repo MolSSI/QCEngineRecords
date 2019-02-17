@@ -14,5 +14,7 @@ MOLPRO_INFO = {
 for dirname, subdirs, file_list in os.walk(MOLPRO_INFO["base_folder"]):
     if dirname == MOLPRO_INFO["base_folder"]:
         continue
+    elif "pycache" in dirname:
+        continue
 
     MOLPRO_INFO["test_cases"][os.path.basename(dirname)] = file_list
