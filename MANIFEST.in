@@ -1,0 +1,14 @@
+recursive-include qcenginevault *.dat
+recursive-include qcenginevault *.json
+recursive-include qcenginevault *.out
+recursive-include qcenginevault *.py
+recursive-include qcenginevault *.xml
+recursive-include qcenginevault *.yaml
+
+include setup.py
+include README.md
+include LICENSE
+include MANIFEST.in
+
+include versioneer.py
+include qcenginevault/_version.py
