@@ -6,6 +6,7 @@ import qcelemental as qcel
 
 def test_list_programs():
     assert "molpro" in qcev.list_programs()
+    assert "terachem" in qcev.list_programs()
 
 
 # Build out a list of all tests and validate

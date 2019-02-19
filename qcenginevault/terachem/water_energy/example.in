@@ -1,0 +1,19 @@
+# molecule definition
+charge 0
+spinmult 1
+coordinates geometry.xyz
+
+# model
+method ub3lyp
+basis sto-3g
+
+# driver
+run energy
+
+# keywords
+levelshift yes
+levelshiftvalb 0.1
+levelshiftvala 1.0
+gpus 1
+maxit 500
+scf diis+a

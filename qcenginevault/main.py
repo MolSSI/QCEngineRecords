@@ -1,8 +1,9 @@
 import os
 
 from .molpro import MOLPRO_INFO
+from .terachem import TERACHEM_INFO
 
-INFO = {"molpro": MOLPRO_INFO}
+INFO = {"molpro": MOLPRO_INFO, "terachem": TERACHEM_INFO}
 
 
 def list_programs():
