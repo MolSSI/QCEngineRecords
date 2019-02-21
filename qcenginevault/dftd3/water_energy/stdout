@@ -1,0 +1,58 @@
+  _________________________________
+
+ |         DFTD3 V3.1 Rev 1        |
+ | S.Grimme, University Bonn       |
+ |         October  2015           |
+ |   see dftd3 -h for options      |
+  _________________________________
+
+ Please cite DFT-D3 work done with this code as:
+ S. Grimme, J. Antony, S. Ehrlich and H. Krieg,
+ J. Chem. Phys. 132 (2010), 154104
+ If used with BJ-damping cite also
+ S. Grimme, S. Ehrlich and L. Goerigk,
+ J. Comput. Chem. 32 (2011), 1456-1465
+ For DFT-D2 the reference is
+ S. Grimme, J. Comput. Chem., 27 (2006), 1787-1799
+ For DFT-D3M or DFT-D3M(BJ) the reference is
+ D.G.A. Smith, L.A. Burns, K. Patkowski, and
+ C.D. Sherrill, J. Phys. Chem. Lett. 7 (2016) 2197-2203
+
+  files read :
+ dftd3_geometry.xyz
+ .dftd3par.local
+C6 coefficients used:
+           2  C6 for element            1
+Z=  1 CN= 0.912     C6(AA)=    3.03
+Z=  1 CN= 0.000     C6(AA)=    7.59
+           3  C6 for element            8
+Z=  8 CN= 0.000     C6(AA)=   15.51
+Z=  8 CN= 0.993     C6(AA)=   12.82
+Z=  8 CN= 1.989     C6(AA)=   10.37
+
+#               XYZ [au]               R0(AA) [Ang.]  CN       C6(AA)     C8(AA)   C10(AA) [au]
+   1   0.00000   0.00000  -0.12948   o     1.241    1.972        10.4       210.3      5197.6
+   2   0.00000  -1.49419   1.02745   h     1.091    0.987         3.1        37.4       554.4
+   3   0.00000   1.49419   1.02745   h     1.091    0.987         3.1        37.4       554.4
+
+molecular C6(AA) [au] =        44.57
+
+           DFT-D V3
+ DF  none (read from parameter file)
+ parameters
+ s6       :    1.0000
+ s8       :    1.7030
+ rs6      :    1.2610
+ rs18     :    1.0000
+ alpha6   :   14.0000
+ alpha8   :   16.0000
+ k1-k3    :   16.0000    1.3333   -4.0000
+ Cutoff   :   94.8683 a.u.
+ CN-Cutoff:   40.0000 a.u.
+
+ Edisp /kcal,au:    -0.0070 -0.00001115
+
+ E6    /kcal :    -0.0002
+ E8    /kcal :    -0.0068
+ % E8        : 96.96
+ normal termination of dftd3
