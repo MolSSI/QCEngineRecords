@@ -14,6 +14,9 @@ class ProgramTests(BaseModel):
     optional_files: Set[str]
     test_cases: Dict[str, Set[str]]
 
+    class Config:
+        allow_mutation = False
+
 
 def find_tests(path):
     ret = {}

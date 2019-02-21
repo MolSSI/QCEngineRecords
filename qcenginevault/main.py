@@ -1,10 +1,6 @@
 import os
 
-from .molpro import MOLPRO_INFO
-from .terachem import TERACHEM_INFO
 from .info import INFO
-
-INFO = {"molpro": MOLPRO_INFO, "terachem": TERACHEM_INFO}
 
 
 def list_programs():
@@ -19,15 +15,15 @@ def list_test_cases(program):
     List all available test cases for a given program.
     """
 
-    return list(INFO[program]["test_cases"])
+    return list(INFO[program].test_cases)
 
 
-def get_required_files(program):
+def get_info(program):
     """
     Return the required files for a given program.
     """
 
-    return INFO[program]["required_files"].copy()
+    return INFO[program].copy()
 
 
 def get_test_case_filenames(program, test_case):
@@ -36,7 +32,7 @@ def get_test_case_filenames(program, test_case):
     """
 
     filenames = {}
-    for f in INFO[program]["test_cases"][test_case]:
-        filenames[f] = os.path.join(INFO[program]["base_folder"], test_case, f)
+    for f in INFO[program].test_cases[test_case]:
+        filenames[f] = os.path.join(INFO[program].base_folder, test_case, f)
 
     return filenames

@@ -12,17 +12,23 @@ def test_list_programs():
 # Build out a list of all tests and validate
 validation_tests = []
 for program in qcev.list_programs():
-    validation_tests.extend((program, case) for case in qcev.list_test_cases(program))
+    info = qcev.get_info(program)
+
+    for case in qcev.list_test_cases(program):
+        validation_tests.append(pytest.param(info, case, id="{}-{}".format(program, case)))
 
 
-@pytest.mark.parametrize("program, test_case", validation_tests)
-def test_validate_test_case(program, test_case):
+@pytest.mark.parametrize("info, test_case", validation_tests)
+def test_validate_test_case(info, test_case):
 
-    filenames = qcev.get_test_case_filenames(program, test_case)
-    required_filesnames = qcev.get_required_files(program)
+    filenames = qcev.get_test_case_filenames(info.program, test_case)
 
     # Check all required files are present
-    assert filenames.keys() == set(required_filesnames), "Missing required files for testing."
+    assert filenames.keys() >= info.required_files, "Missing required files for testing."
+    assert filenames.keys() <= (info.required_files | info.optional_files), "Unknown files found."
 
     # Ensure the `input.json` is valid
-    model = qcel.models.ResultInput.parse_file(filenames["input.json"])
+    qcel.models.ResultInput.parse_file(filenames["input.json"])
+
+    # Ensure the `output.json` is valid
+    # qcel.models.Result.parse_file(filenames["output.json"])

@@ -3,7 +3,7 @@ QCEngineVault
 A collection of input and output files for QCEngine parsers.
 """
 
-from .main import get_required_files, list_test_cases, list_programs, get_test_case_filenames
+from .main import get_info, list_test_cases, list_programs, get_test_case_filenames
 
 # Handle versioneer
 from ._version import get_versions
