@@ -10,7 +10,7 @@
     "driver": "gradient",
     "keywords": {},
     "model": {
-        "method": "HF",
+        "method": "MP2",
         "basis": "sto-3g"
     }
 }
