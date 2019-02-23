@@ -16,7 +16,7 @@ except:
 
 setup(
     # Self-descriptive entries which should always be present
-    name='qcenginevault',
+    name='qcenginerecords',
     author='Daniel G. A. Smith',
     author_email='dgasmith@vt.edu',
     description=short_description[0],
@@ -27,12 +27,12 @@ setup(
     license='BSD-3-Clause',
 
     # Which Python importable modules should be included when your package is installed
-    packages=['qcenginevault', "qcenginevault.tests"],
+    packages=['qcenginerecords', "qcenginerecords.tests"],
 
     # Optional include package data to ship with your package
     # Comment out this line to prevent the files from being packaged with your software
     # Extend/modify the list to include/exclude other items as need be
-    package_data={'qcenginevault': ["data/*.dat"]
+    package_data={'qcenginerecords': ["data/*.dat"]
                   },
 
     # Additional entries you may want simply uncomment the lines you want and fill in the data
