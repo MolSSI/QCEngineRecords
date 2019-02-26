@@ -17,6 +17,18 @@ class ProgramTests(BaseModel):
     class Config:
         allow_mutation = False
 
+    def list_test_cases(self):
+        return list(self.test_cases.keys())
+
+    def get_test_data(self, test):
+
+        ret = {}
+        for fn in self.test_cases[test]:
+            with open(os.path.join(self.base_folder, test, fn), 'r') as handle:
+                ret[fn] = handle.read()
+
+        return ret
+
 
 def find_tests(path):
     ret = {}
@@ -49,9 +61,9 @@ def build_test_info(program, required_files, optional_files=None):
 
 # Molpro
 INFO["molpro"] = build_test_info("molpro", {
-    "example.mol",
-    "example.out",
-    "example.xml",
+    "dispatch.mol",
+    "dispatch.out",
+    "dispatch.xml",
 })
 
 INFO["terachem"] = build_test_info("terachem", {
