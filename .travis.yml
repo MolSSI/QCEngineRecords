@@ -33,7 +33,7 @@ install:
 
 
 script:
-  - pytest -v --cov=qcenginevault qcenginevault/tests/
+  - pytest -v --cov=qcenginerecords qcenginerecords/tests/
 
 notifications:
     email: false
