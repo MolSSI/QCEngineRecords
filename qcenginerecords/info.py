@@ -67,8 +67,8 @@ INFO["molpro"] = build_test_info("molpro", {
 })
 
 INFO["terachem"] = build_test_info("terachem", {
-    "example.in",
-    "example.out",
+    "tc.in",
+    "tc.out",
     "geometry.xyz",
 })
 
