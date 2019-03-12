@@ -1,8 +1,8 @@
 QCEngineVault
 ==============================
 [//]: # (Badges)
-[![Travis Build Status](https://travis-ci.org/MolSSI/QCEngineVault.png)](https://travis-ci.org/MolSSI/QCEngineVault)
-[![codecov](https://codecov.io/gh/MolSSI/QCEngineVault/branch/master/graph/badge.svg)](https://codecov.io/gh/MolSSI/QCEngineVault/branch/master)
+[![Travis Build Status](https://travis-ci.org/MolSSI/QCEngineRecords.png)](https://travis-ci.org/MolSSI/QCEngineRecords)
+[![codecov](https://codecov.io/gh/MolSSI/QCEngineRecords/branch/master/graph/badge.svg)](https://codecov.io/gh/MolSSI/QCEngineRecords/branch/master)
 
 A collection of input and output files for QCEngine parsers.
 
