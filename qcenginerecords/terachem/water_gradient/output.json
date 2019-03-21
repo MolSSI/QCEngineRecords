@@ -79,7 +79,7 @@
             "routine": "qcelemental.molparse.from_schema"
         }
     },
-    "driver": "energy",
+    "driver": "gradient",
     "model": {
         "method": "HF",
         "basis": "sto-3g"

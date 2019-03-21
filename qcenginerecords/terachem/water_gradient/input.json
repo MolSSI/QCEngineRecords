@@ -7,7 +7,7 @@
         "symbols": ["O", "H", "H"],
         "connectivity": [[0, 1, 1], [0, 2, 1]]
     },
-    "driver": "energy",
+    "driver": "gradient",
     "keywords": {"levelshift":"yes", "levelshiftvalb":"0.1", "level    shiftvala":"1.0", "gpus":"1", "maxit":"500", "scf":"diis+a", "method":"ub3lyp"},
     "model": {
         "method": "HF",
