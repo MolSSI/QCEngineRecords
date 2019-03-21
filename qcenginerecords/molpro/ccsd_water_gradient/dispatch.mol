@@ -16,6 +16,6 @@ default,sto-3g
 }
 
 {HF}
-{MP2}
+{CCSD}
 
 {force}

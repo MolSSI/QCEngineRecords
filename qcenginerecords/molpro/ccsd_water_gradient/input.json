@@ -10,7 +10,7 @@
     "driver": "gradient",
     "keywords": {},
     "model": {
-        "method": "MP2",
+        "method": "CCSD",
         "basis": "sto-3g"
     }
 }
