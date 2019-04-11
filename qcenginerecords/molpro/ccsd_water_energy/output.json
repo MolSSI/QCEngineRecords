@@ -54,8 +54,8 @@
     "scf_total_energy": -74.4593745473721
   },
   "extras:": {
-    "ccsd_same_spin_correlation_energy": 0.20134787828206E-01,
-    "ccsd_opposite_spin_correlation_energy": -0.344262515742491,
+    "ccsd_same_spin_correlation_energy": 0.01342319188547,
+    "ccsd_opposite_spin_correlation_energy": -0.33755091979975,
     "ccsd_total_correlation_energy": -0.324127450017439,
     "ccsd_total_energy": -74.7835019973896
   },
