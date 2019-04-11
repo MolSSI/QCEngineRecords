@@ -62,8 +62,8 @@
       0.261414322758373
     ],
     "scf_total_energy": -74.4593745468586,
-    "mp2_same_spin_correlation_energy": -0.182771197973528,
-    "mp2_opposite_spin_correlation_energy": -0.0287494484676824,
+    "mp2_same_spin_correlation_energy": -0.01916629897845,
+    "mp2_opposite_spin_correlation_energy": -0.19235434746275,
     "mp2_total_correlation_energy": -0.211520646441211,
     "mp2_total_energy": -74.6708951932998
   },

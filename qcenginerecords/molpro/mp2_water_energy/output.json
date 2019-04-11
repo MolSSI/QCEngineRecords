@@ -23,8 +23,8 @@
     "properties": {
         "scf_dipole_moment": [-2.6062222989074e-16, 7.99360577730113e-15, 0.261379527150829],
         "scf_total_energy": -74.4593745473721,
-        "mp2_same_spin_correlation_energy": -0.182771781537235,
-        "mp2_opposite_spin_correlation_energy": -0.0287495331215219,
+        "mp2_same_spin_correlation_energy": -0.0191663554143,
+        "mp2_opposite_spin_correlation_energy": -0.192354959244,
         "mp2_total_correlation_energy": -0.211521314658757,
         "mp2_total_energy": -74.6708958620309
     },
