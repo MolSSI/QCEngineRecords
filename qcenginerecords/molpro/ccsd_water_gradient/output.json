@@ -31,7 +31,7 @@
   },
   "driver": "gradient",
   "model": {
-    "method": "MP2",
+    "method": "CCSD",
     "basis": "sto-3g"
   },
   "id": null,
@@ -45,27 +45,25 @@
   },
   "success": true,
   "return_result": [
+    -0.0,
     0.0,
+    -0.025292587357,
     0.0,
-    -0.056669886301,
+    -0.019076745229,
+    0.012646293679,
     0.0,
-    -0.061856999711,
-    0.02833494315,
-    0.0,
-    0.061856999711,
-    0.02833494315
+    0.019076745229,
+    0.012646293679
   ],
   "properties": {
     "scf_dipole_moment": [
       0.0,
       0.0,
-      0.261414322758373
+      0.261414322406395
     ],
-    "scf_total_energy": -74.4593745468586,
-    "ccsd_same_spin_correlation_energy": -0.182771197973528,
-    "ccsd_opposite_spin_correlation_energy": -0.0287494484676824,
-    "ccsd_total_correlation_energy": -0.211520646441211,
-    "ccsd_total_energy": -74.6708951932998
+    "scf_total_energy": -74.4593745474439,
+    "ccsd_total_correlation_energy": -0.324127345582,
+    "ccsd_total_energy": -74.783501893026
   },
   "error": null
 }
