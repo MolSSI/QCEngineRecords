@@ -103,16 +103,16 @@
         "routine": "qcelemental.models.results"
     },
     "properties": {
-        "nuclear_repulsion_energy": 4.657533482534,
+        "nuclear_repulsion_energy": 8.801462697763,
         "scf_dipole_moment": [
-            -4e-06,
-            0.000287,
-            0.400009
+            -1.8e-05,
+            -0.0,
+            1.607331
         ],
-        "scf_total_energy": -74.9752716866,
-        "scf_iterations": 124
+        "scf_total_energy": -75.3197341833,
+        "scf_iterations": 28
     },
-    "return_result": -74.9752716866,
+    "return_result": -75.3197341833,
     "success": true,
     "stdout": null,
     "stderr": null,
