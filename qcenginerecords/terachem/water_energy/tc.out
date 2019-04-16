@@ -1,9 +1,10 @@
-Startfile from command line: tc.in
+Use device 2 as 0th gpu
+Startfile from command line: energy.in
 
 
        ***********************************************************
        *                    TeraChem v1.9-2018.10-dev            *
-       *                 Hg Version:                             *
+       *                 Hg Version: afef946e6bce                *
        *                   Development Version                   *
        *                Compiled without textures                *
        *           Chemistry at the Speed of Graphics!           *
@@ -22,81 +23,81 @@ Startfile from command line: tc.in
 
 
        ***********************************************************
-       *  Compiled by fangliu      Wed Oct  3 16:45:15 EDT 2018  *
+       *  Compiled by fangliu      Tue Apr  9 10:57:46 EDT 2019  *
        *  Supported architectures: sm_35 sm_52 sm_61             *
        *  Cuda compilation tools, release 9.1, V9.1.85           *
        ***********************************************************
 
 
- Job started   Mon Feb 18 21:31:18 2019
- On gibraltar-33 (available memory: 14301 MB)
+ Job started   Tue Apr 16 11:37:27 2019
+ On gibraltar-21.localdomain (available memory: 8161 MB)
 
 ######################################### RUNTIME INFO ##########################################
-/home/fangliu/src/production_OpenMM/production/build/bin/terachem tc.in 
+terachem -g2 energy.in 
 
-NVRM version: NVIDIA UNIX x86_64 Kernel Module  410.93  Thu Dec 20 17:01:16 CST 2018
-GCC version:  gcc version 4.4.7 20120313 (Red Hat 4.4.7-23) (GCC) 
+NVRM version: NVIDIA UNIX x86_64 Kernel Module  390.48  Thu Mar 22 00:42:57 PDT 2018
+GCC version:  gcc version 4.4.7 20120313 (Red Hat 4.4.7-11) (GCC) 
 
-	linux-vdso.so.1 =>  (0x00007ffc7bffd000)
-	libcurl.so.4 => /usr/lib64/libcurl.so.4 (0x0000003aad600000)
-	libdftbplus.so => /home/fangliu/src/production_OpenMM/production/build/lib/libdftbplus.so (0x00007eff35e5d000)
-	libfsockets.so => /home/fangliu/src/production_OpenMM/production/build/lib/libfsockets.so (0x00007eff35c5a000)
-	libxmlf90.so => /home/fangliu/src/production_OpenMM/production/build/lib/libxmlf90.so (0x00007eff35a37000)
-	libOpenMM.so => /opt/OpenMM-7.1.1/lib/libOpenMM.so (0x00007eff35515000)
-	libintbox.so.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libintbox.so.1 (0x00007eff2100c000)
-	libthcbox.so.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libthcbox.so.1 (0x00007eff1feb7000)
-	libgridbox.so.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libgridbox.so.1 (0x00007eff1fa8e000)
-	libdftbox.so.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libdftbox.so.1 (0x00007eff1f7a8000)
-	libcibox.so.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libcibox.so.1 (0x00007eff1f41c000)
-	libcuda.so.1 => /usr/lib64/libcuda.so.1 (0x00007eff1e319000)
-	libcudart.so.9.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libcudart.so.9.1 (0x00007eff1e0ab000)
-	libcublas.so.9.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libcublas.so.9.1 (0x00007eff1ab14000)
-	libcufft.so.9.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libcufft.so.9.1 (0x00007eff13626000)
-	libcusparse.so.9.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libcusparse.so.9.1 (0x00007eff0ff52000)
-	libcrypto.so.10 => /usr/lib64/libcrypto.so.10 (0x0000003aa5e00000)
-	libssl.so.10 => /usr/lib64/libssl.so.10 (0x0000003aa8a00000)
-	libstdc++.so.6 => /usr/lib64/libstdc++.so.6 (0x0000003aa5200000)
-	libm.so.6 => /lib64/libm.so.6 (0x0000003aa1a00000)
-	libcilkrts.so.5 => /home/fangliu/src/production_OpenMM/production/build/lib/libcilkrts.so.5 (0x00007eff0fd15000)
-	libgcc_s.so.1 => /lib64/libgcc_s.so.1 (0x0000003aa3600000)
-	libpthread.so.0 => /lib64/libpthread.so.0 (0x0000003aa0e00000)
-	libc.so.6 => /lib64/libc.so.6 (0x0000003aa0a00000)
-	/lib64/ld-linux-x86-64.so.2 (0x0000558aef1ca000)
-	libdl.so.2 => /lib64/libdl.so.2 (0x0000003aa0600000)
-	libidn.so.11 => /lib64/libidn.so.11 (0x0000003aa3200000)
-	libldap-2.4.so.2 => /lib64/libldap-2.4.so.2 (0x0000003aab600000)
-	librt.so.1 => /lib64/librt.so.1 (0x0000003aa1600000)
-	libgssapi_krb5.so.2 => /lib64/libgssapi_krb5.so.2 (0x0000003aa8600000)
-	libkrb5.so.3 => /lib64/libkrb5.so.3 (0x0000003aa7e00000)
-	libk5crypto.so.3 => /lib64/libk5crypto.so.3 (0x0000003aa6a00000)
-	libcom_err.so.2 => /lib64/libcom_err.so.2 (0x0000003aa6600000)
-	libz.so.1 => /lib64/libz.so.1 (0x0000003aa1200000)
-	libssl3.so => /usr/lib64/libssl3.so (0x0000003aa8200000)
-	libsmime3.so => /usr/lib64/libsmime3.so (0x0000003aa7200000)
-	libnss3.so => /usr/lib64/libnss3.so (0x0000003aa4a00000)
-	libnssutil3.so => /usr/lib64/libnssutil3.so (0x0000003aa3e00000)
-	libplds4.so => /lib64/libplds4.so (0x0000003aa4200000)
-	libplc4.so => /lib64/libplc4.so (0x0000003aa5600000)
-	libnspr4.so => /lib64/libnspr4.so (0x0000003aa4e00000)
-	libssh2.so.1 => /usr/lib64/libssh2.so.1 (0x0000003aad200000)
-	libmkl_intel_lp64.so => /opt/intel/2016/compilers_and_libraries/linux/mkl/lib/intel64/libmkl_intel_lp64.so (0x00007eff0f3d0000)
-	libmkl_intel_thread.so => /opt/intel/2016/compilers_and_libraries/linux/mkl/lib/intel64/libmkl_intel_thread.so (0x00007eff0e079000)
-	libmkl_core.so => /opt/intel/2016/compilers_and_libraries/linux/mkl/lib/intel64/libmkl_core.so (0x00007eff0c794000)
-	libiomp5.so => /opt/intel/2016/compilers_and_libraries/linux/ipp/../compiler/lib/intel64/libiomp5.so (0x00007eff0c452000)
-	libifport.so.5 => /opt/intel/2016/compilers_and_libraries/linux/ipp/../compiler/lib/intel64/libifport.so.5 (0x00007eff0c223000)
-	libifcoremt.so.5 => /opt/intel/2016/compilers_and_libraries/linux/ipp/../compiler/lib/intel64/libifcoremt.so.5 (0x00007eff0be91000)
-	libimf.so => /opt/intel/2016/compilers_and_libraries/linux/ipp/../compiler/lib/intel64/libimf.so (0x00007eff0b998000)
-	libsvml.so => /opt/intel/2016/compilers_and_libraries/linux/ipp/../compiler/lib/intel64/libsvml.so (0x00007eff0aad9000)
-	libintlc.so.5 => /opt/intel/2016/compilers_and_libraries/linux/ipp/../compiler/lib/intel64/libintlc.so.5 (0x00007eff0a87a000)
-	libnvidia-fatbinaryloader.so.410.93 => /usr/lib64/libnvidia-fatbinaryloader.so.410.93 (0x00007eff0a62c000)
-	libresolv.so.2 => /lib64/libresolv.so.2 (0x0000003aa2600000)
-	liblber-2.4.so.2 => /lib64/liblber-2.4.so.2 (0x0000003aa9e00000)
-	libsasl2.so.2 => /usr/lib64/libsasl2.so.2 (0x0000003aa9a00000)
-	libkrb5support.so.0 => /lib64/libkrb5support.so.0 (0x0000003aa6e00000)
-	libkeyutils.so.1 => /lib64/libkeyutils.so.1 (0x0000003aa7600000)
-	libcrypt.so.1 => /lib64/libcrypt.so.1 (0x0000003aa4600000)
-	libselinux.so.1 => /lib64/libselinux.so.1 (0x0000003aa1e00000)
-	libfreebl3.so => /lib64/libfreebl3.so (0x0000003aa5a00000)
+	linux-vdso.so.1 =>  (0x00007fffd5fff000)
+	libcurl.so.4 => /usr/lib64/libcurl.so.4 (0x0000003bd6000000)
+	libdftbplus.so => /home/fangliu/src/production_OpenMM/production/build/lib/libdftbplus.so (0x00002afe4df71000)
+	libfsockets.so => /home/fangliu/src/production_OpenMM/production/build/lib/libfsockets.so (0x00002afe4e456000)
+	libxmlf90.so => /home/fangliu/src/production_OpenMM/production/build/lib/libxmlf90.so (0x00002afe4e659000)
+	libOpenMM.so => /opt/OpenMM-7.1.1/lib/libOpenMM.so (0x00002afe4e87d000)
+	libintbox.so.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libintbox.so.1 (0x00002afe4ed9e000)
+	libthcbox.so.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libthcbox.so.1 (0x00002afe632a7000)
+	libgridbox.so.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libgridbox.so.1 (0x00002afe643fd000)
+	libdftbox.so.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libdftbox.so.1 (0x00002afe64825000)
+	libcibox.so.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libcibox.so.1 (0x00002afe64b0b000)
+	libcuda.so.1 => /usr/lib64/libcuda.so.1 (0x00002afe64e98000)
+	libcudart.so.9.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libcudart.so.9.1 (0x00002afe65a38000)
+	libcublas.so.9.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libcublas.so.9.1 (0x00002afe65ca6000)
+	libcufft.so.9.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libcufft.so.9.1 (0x00002afe6923e000)
+	libcusparse.so.9.1 => /home/fangliu/src/production_OpenMM/production/build/lib/libcusparse.so.9.1 (0x00002afe7072b000)
+	libcrypto.so.10 => /usr/lib64/libcrypto.so.10 (0x0000003bd4400000)
+	libssl.so.10 => /usr/lib64/libssl.so.10 (0x0000003bd6c00000)
+	libstdc++.so.6 => /usr/lib64/libstdc++.so.6 (0x0000003bd2c00000)
+	libm.so.6 => /lib64/libm.so.6 (0x0000003bd0000000)
+	libcilkrts.so.5 => /home/fangliu/src/production_OpenMM/production/build/lib/libcilkrts.so.5 (0x00002afe73e01000)
+	libgcc_s.so.1 => /lib64/libgcc_s.so.1 (0x0000003bd1c00000)
+	libpthread.so.0 => /lib64/libpthread.so.0 (0x0000003bcf000000)
+	libc.so.6 => /lib64/libc.so.6 (0x0000003bcec00000)
+	/lib64/ld-linux-x86-64.so.2 (0x0000003bce800000)
+	libdl.so.2 => /lib64/libdl.so.2 (0x0000003bcf400000)
+	libidn.so.11 => /lib64/libidn.so.11 (0x0000003bd1800000)
+	libldap-2.4.so.2 => /lib64/libldap-2.4.so.2 (0x0000003bd1400000)
+	librt.so.1 => /lib64/librt.so.1 (0x0000003bcfc00000)
+	libgssapi_krb5.so.2 => /lib64/libgssapi_krb5.so.2 (0x0000003bd5c00000)
+	libkrb5.so.3 => /lib64/libkrb5.so.3 (0x0000003bd4c00000)
+	libk5crypto.so.3 => /lib64/libk5crypto.so.3 (0x0000003bd5000000)
+	libcom_err.so.2 => /lib64/libcom_err.so.2 (0x0000003bd3000000)
+	libz.so.1 => /lib64/libz.so.1 (0x0000003bcf800000)
+	libssl3.so => /usr/lib64/libssl3.so (0x0000003bd5800000)
+	libsmime3.so => /usr/lib64/libsmime3.so (0x00002afe74040000)
+	libnss3.so => /usr/lib64/libnss3.so (0x0000003bd3400000)
+	libnssutil3.so => /usr/lib64/libnssutil3.so (0x0000003bd3c00000)
+	libplds4.so => /lib64/libplds4.so (0x0000003bd3800000)
+	libplc4.so => /lib64/libplc4.so (0x00002afe7426d000)
+	libnspr4.so => /lib64/libnspr4.so (0x0000003bd4000000)
+	libssh2.so.1 => /usr/lib64/libssh2.so.1 (0x0000003bd7c00000)
+	libmkl_intel_lp64.so => /opt/intel/2016/compilers_and_libraries/linux/mkl/lib/intel64/libmkl_intel_lp64.so (0x00002afe74474000)
+	libmkl_intel_thread.so => /opt/intel/2016/compilers_and_libraries/linux/mkl/lib/intel64/libmkl_intel_thread.so (0x00002afe74db2000)
+	libmkl_core.so => /opt/intel/2016/compilers_and_libraries/linux/mkl/lib/intel64/libmkl_core.so (0x00002afe76109000)
+	libiomp5.so => /opt/intel/2016/compilers_and_libraries/linux/ipp/../compiler/lib/intel64/libiomp5.so (0x00002afe779ee000)
+	libifport.so.5 => /opt/intel/2016/compilers_and_libraries/linux/ipp/../compiler/lib/intel64/libifport.so.5 (0x00002afe77d30000)
+	libifcoremt.so.5 => /opt/intel/2016/compilers_and_libraries/linux/ipp/../compiler/lib/intel64/libifcoremt.so.5 (0x00002afe77f5f000)
+	libimf.so => /opt/intel/2016/compilers_and_libraries/linux/ipp/../compiler/lib/intel64/libimf.so (0x00002afe782f1000)
+	libsvml.so => /opt/intel/2016/compilers_and_libraries/linux/ipp/../compiler/lib/intel64/libsvml.so (0x00002afe787ea000)
+	libintlc.so.5 => /opt/intel/2016/compilers_and_libraries/linux/ipp/../compiler/lib/intel64/libintlc.so.5 (0x00002afe796a9000)
+	libnvidia-fatbinaryloader.so.390.48 => /usr/lib64/libnvidia-fatbinaryloader.so.390.48 (0x00002afe79909000)
+	liblber-2.4.so.2 => /lib64/liblber-2.4.so.2 (0x0000003bd1000000)
+	libresolv.so.2 => /lib64/libresolv.so.2 (0x0000003bd0c00000)
+	libsasl2.so.2 => /usr/lib64/libsasl2.so.2 (0x0000003bd7800000)
+	libkrb5support.so.0 => /lib64/libkrb5support.so.0 (0x0000003bd5400000)
+	libkeyutils.so.1 => /lib64/libkeyutils.so.1 (0x0000003bd4800000)
+	libcrypt.so.1 => /lib64/libcrypt.so.1 (0x0000003bd2400000)
+	libselinux.so.1 => /lib64/libselinux.so.1 (0x0000003bd0800000)
+	libfreebl3.so => /lib64/libfreebl3.so (0x0000003bd2800000)
 #################################################################################################
 
 Cannot find license.dat file in the TeraChem installation directory /home/fangliu/src/production_OpenMM/production/build
@@ -109,12 +110,12 @@ Checking your license...
 
 **************************************************************
   Greetings, Martinez Group! You have 1000 licenses in total
-  IN USE: 22
-  AVAILABLE: 978
+  IN USE: 6
+  AVAILABLE: 994
 **************************************************************
 
 Scratch directory: ./scr
-Random number seed: 1258515334
+Random number seed: 1481736469
 
 XYZ coordinates geometry.xyz
 Molden File Output: ./scr/geometry.molden
@@ -150,14 +151,14 @@ Initial guess generated by maximum overlap
 ********************************************
 
 using 1 out of 8 CUDA devices
-   Device 0:  GeForce GTX 1080 Ti, 11178MB, CC 6.1 -- CPU THREAD 0
-   Device 1:  GeForce GTX 1080 Ti, 11178MB, CC 6.1 -- IDLE
-   Device 2:  GeForce GTX 1080 Ti, 11178MB, CC 6.1 -- IDLE
-   Device 3:  GeForce GTX 1080 Ti, 11178MB, CC 6.1 -- IDLE
-   Device 4:  GeForce GTX 1080 Ti, 11178MB, CC 6.1 -- IDLE
-   Device 5:  GeForce GTX 1080 Ti, 11178MB, CC 6.1 -- IDLE
-   Device 6:  GeForce GTX 1080 Ti, 11178MB, CC 6.1 -- IDLE
-   Device 7:  GeForce GTX 1080 Ti, 11178MB, CC 6.1 -- IDLE
+   Device 0:      GeForce GTX 970, 4043MB, CC 5.2 -- IDLE
+   Device 1:      GeForce GTX 970, 4043MB, CC 5.2 -- IDLE
+   Device 2:      GeForce GTX 970,  4043MB, CC 5.2 -- CPU THREAD 0
+   Device 3:      GeForce GTX 970, 4043MB, CC 5.2 -- IDLE
+   Device 4:      GeForce GTX 970, 4043MB, CC 5.2 -- IDLE
+   Device 5:      GeForce GTX 970, 4043MB, CC 5.2 -- IDLE
+   Device 6:      GeForce GTX 970, 4043MB, CC 5.2 -- IDLE
+   Device 7:      GeForce GTX 970, 4043MB, CC 5.2 -- IDLE
 -------------------------------------------------------------------
 Compiled with MAGMA support.  MAGMA parameters:
     Matrices larger than 5000 square will be treated with MAGMA
@@ -165,18 +166,18 @@ Compiled with MAGMA support.  MAGMA parameters:
     Magma will use 1 out of 1 GPUs
        (Change by setting the MagmaNGPUs environment variable)
 -------------------------------------------------------------------
- CPU Memory Available: 16117.62 MegaWords 
- GPU Memory Available: 1141.31 MegaWords 
- Maximum recommended basis set size: 12200 basis functions
+ CPU Memory Available: 16129.12 MegaWords 
+ GPU Memory Available: 249.38 MegaWords 
+ Maximum recommended basis set size: 5100 basis functions
  (limited by GPU memory)
 -------------------------------------------------------------------
 Not using d-functions. Configuring GPUs accordingly.
-0: CUBLAS initialized, available GPU memory: 9669MB
+0: CUBLAS initialized, available GPU memory: 2714MB
 
 ****** QM coordinates ******
-O         0.0000000000         0.0000000000        -0.1294769412  
-H         0.0000000000        -1.4941873395         1.0274465079  
-H         0.0000000000         1.4941873395         1.0274465079  
+O         0.0000000000         0.0000000000        -0.0685162460  
+H         0.0000000000        -0.7906898888         0.5437012783  
+H         0.0000000000         0.7906898888         0.5437012783  
 
 Basis set:       sto-3g
 Total atoms:     3
@@ -186,164 +187,67 @@ Number electrons modeled by ECPs: 0
 Total orbitals:  7
 Total AO shells: 5 (4 S-shells; 1 P-shells; 0 D-shells; 0 F-shells; 0 G-shells)
 Spin multiplicity: 1
-Nuclear repulsion energy (QM atoms): 4.657533482534 a.u.
+Nuclear repulsion energy (QM atoms): 8.801462697763 a.u.
 
 Setting up the DFT grid...
 time to set the grid = 0.00 s
-DFT grid points: 3182 (1060 points/atom)
+DFT grid points: 3162 (1054 points/atom)
 Setting up the DFT grid...
 time to set the grid = 0.00 s
-DFT grid points: 8874 (2958 points/atom)
+DFT grid points: 8796 (2932 points/atom)
 
                       *** Start SCF Iterations ***
 
  Iter     DIIS Error       Energy change      Electrons        XC Energy           Energy        Time(s)
 ----------------------------------------------------------------------------------------------------------
-         >>> Purifying Palpha... IDMP = 1.11e-15 <<<
-         >>> Purifying Pbeta ... IDMP = 1.11e-15 <<<
+         >>> Purifying Palpha... IDMP = 3.44e-15 <<<
+         >>> Purifying Pbeta ... IDMP = 3.44e-15 <<<
 THRESPDP set to 1.00e+00
                 >>> SWITCHING TO GRID 1 <<<
 Rotate HOMO and LUMO by 45.000000 degrees
-   1     0.3519005115     -74.5482919462    10.0001014801    -7.3748100654     -74.5482919462     0.05  
-THRESPDP set to 3.56e+00
+   1     0.6299099999     -75.0676066644    10.0000259645    -7.5459349937     -75.0676066644     0.18  
+THRESPDP set to 8.33e+00
                 >>> SWITCHING TO GRID 0 <<<
-   2     0.3914966246      -0.3009018173     9.9981757376    -7.2653988931     -74.8491937635     0.02  
-   3     0.1845018403      -0.1005249080     9.9977791070    -7.4954199450     -74.9497186715     0.02  
-   4     0.1057934528      -0.0188674150     9.9978767898    -7.4545883412     -74.9685860865     0.02  
-   5     0.0920749856      -0.0049340816     9.9978941969    -7.4491123554     -74.9735201681     0.02  
-   6     0.0922540318      -0.0030053187     9.9978933494    -7.4518171867     -74.9765254868     0.02  
-   7     0.0800815608      -0.0031269370     9.9979049715    -7.4480900897     -74.9796524238     0.02  
-   8     0.0870527888      -0.0020221659     9.9978966388    -7.4567664239     -74.9816745897     0.02  
-THRESPDP set to 9.27e-02
-   9     0.0301424034      +0.0009519472     9.9979828463    -7.4086985751     -74.9807226425     0.02  
-  10     0.0784953546      +0.0009230363     9.9979141206    -7.4469714278     -74.9797996062     0.02  
-  11     0.0977028609      +0.0144828202     9.9980799515    -7.3584062168     -74.9653167860     0.02  
-  12     0.2243368301      +0.0330958216     9.9981788040    -7.3102637649     -74.9322209644     0.02  
-  13     0.1195850921      -0.0254275448     9.9981073947    -7.3448671046     -74.9576485092     0.02  
-  14     0.0283355935      -0.0105265127     9.9980482457    -7.3778881032     -74.9681750219     0.02  
-  15     0.1116122563      +0.0042638342     9.9979385433    -7.4378503945     -74.9639111877     0.02  
-  16     0.1200720269      +0.0009904643     9.9979405319    -7.4420694106     -74.9629207234     0.02  
-  17     0.1260582450      +0.0006238410     9.9979379076    -7.4454199628     -74.9622968824     0.02  
-  18     0.1193304024      -0.0007986984     9.9979476345    -7.4406189013     -74.9630955808     0.02  
-  19     0.2649307902      +0.0379355266     9.9977916314    -7.5304833429     -74.9251600543     0.02  
-  20     0.2138220441      -0.0222542367     9.9978449155    -7.5030452140     -74.9474142909     0.02  
-  21     0.1190743813      -0.0210986375     9.9979404760    -7.4493652034     -74.9685129284     0.02  
-  22     0.0603688218      -0.0051422622     9.9979937786    -7.4200382167     -74.9736551906     0.01  
-  23     0.1026575362      +0.0093584347     9.9981256546    -7.3519127043     -74.9642967559     0.01  
-  24     0.0710956563      -0.0040688136     9.9981078310    -7.3628960024     -74.9683655694     0.01  
-  25     0.0782999870      +0.0006085393     9.9981130395    -7.3599217762     -74.9677570301     0.01  
-  26     0.0713729279      -0.0010075117     9.9981140457    -7.3622238497     -74.9687645418     0.01  
-  27     0.0346130989      -0.0031651154     9.9980991365    -7.3756042636     -74.9719296572     0.01  
-  28     0.1050875574      +0.0068587186     9.9981500304    -7.3506319598     -74.9650709386     0.02  
-  29     0.0734477391      -0.0039950529     9.9981277218    -7.3613317033     -74.9690659915     0.02  
-  30     0.0571076522      -0.0017672749     9.9981220699    -7.3672834657     -74.9708332664     0.01  
-  31     0.0433539075      -0.0013092399     9.9981221660    -7.3726466559     -74.9721425063     0.01  
-  32     0.0217117510      -0.0012249745     9.9981161559    -7.3808734986     -74.9733674808     0.01  
-  33     0.0075365185      -0.0004535285     9.9981119682    -7.3862520715     -74.9738210093     0.02  
+   2     0.2003827630      -0.0670859943    10.0001826324    -7.5710210784     -75.1346926587     0.02  
+   3     0.1575478207      -0.0662725364    10.0001848187    -7.6137301831     -75.2009651951     0.02  
+   4     0.1321888925      -0.0441725082    10.0001596659    -7.6032380818     -75.2451377033     0.02  
+   5     0.1092443072      -0.0330631645    10.0001258686    -7.5760633194     -75.2782008678     0.02  
+   6     0.0821628742      -0.0190197481    10.0001203844    -7.5806157707     -75.2972206159     0.02  
+   7     0.0553093275      -0.0132053551    10.0001291621    -7.6038120729     -75.3104259710     0.02  
+   8     0.0412783127      -0.0046708288    10.0001241346    -7.5998346425     -75.3150967997     0.09  
+THRESPDP set to 9.21e-02
+   9     0.0294354298      -0.0021358098    10.0001216074    -7.5975349963     -75.3172326095     0.02  
+  10     0.0207722375      -0.0014745953    10.0001243197    -7.6029204122     -75.3187072048     0.02  
+  11     0.0137310167      -0.0005811990    10.0001266162    -7.6070177665     -75.3192884038     0.02  
+  12     0.0091413485      -0.0002282675    10.0001256276    -7.6057026427     -75.3195166713     0.02  
                 >>> SWITCHING TO GRID 1 <<<
-  34     0.0052556147      -0.0012010049    10.0001000612    -7.3896381536     -74.9750220142     0.03  
-  35     0.0050615230      -0.0000294582    10.0001000537    -7.3891677814     -74.9750514724     0.03  
-  36     0.0048825281      -0.0000352812    10.0000999894    -7.3893355621     -74.9750867536     0.03  
-  37     0.0045585415      -0.0000367365    10.0001000120    -7.3895877064     -74.9751234901     0.03  
-  38     0.0045856324      -0.0000135527    10.0000999669    -7.3895621622     -74.9751370428     0.03  
-  39     0.0042888480      -0.0000279823    10.0000999938    -7.3899846730     -74.9751650251     0.03  
-  40     0.0040862136      -0.0000366698    10.0001000641    -7.3899776275     -74.9752016949     0.03  
-  41     0.0031744017      +0.0000098358    10.0001001721    -7.3920775484     -74.9751918591     0.03  
-  42     0.0062182938      +0.0000555421    10.0001001523    -7.3933345839     -74.9751363170     0.03  
-  43     0.0034411587      -0.0001125609    10.0001002934    -7.3915933718     -74.9752488778     0.03  
-  44     0.0036177368      -0.0000547932    10.0001003892    -7.3913778060     -74.9753036711     0.03  
-  45     0.0037935808      -0.0000299234    10.0001004421    -7.3920808279     -74.9753335944     0.03  
-  46     0.0035849990      -0.0000009742    10.0001004693    -7.3917385463     -74.9753345686     0.03  
-  47     0.0035334764      -0.0000044036    10.0001005223    -7.3920656026     -74.9753389723     0.03  
-  48     0.0089237023      +0.0000453279    10.0001006789    -7.3943347055     -74.9752936443     0.03  
-  49     0.0074444985      -0.0000531873    10.0001006589    -7.3938929956     -74.9753468317     0.03  
-  50     0.0068958919      -0.0000365029    10.0001006640    -7.3938100323     -74.9753833346     0.03  
-  51     0.0030902301      +0.0000690546    10.0001004025    -7.3899215182     -74.9753142800     0.03  
-  52     0.0045353253      +0.0000488182    10.0001003454    -7.3893675578     -74.9752654618     0.03  
-  53     0.0061639727      +0.0000828489    10.0001003984    -7.3893027763     -74.9751826129     0.03  
-  54     0.0063800534      +0.0000226956    10.0001003819    -7.3890710726     -74.9751599173     0.03  
-  55     0.0057250515      -0.0000202914    10.0001004104    -7.3894869692     -74.9751802087     0.03  
-  56     0.0053039762      -0.0000174945    10.0001004496    -7.3901123029     -74.9751977033     0.03  
-  57     0.0048021678      -0.0000104161    10.0001004651    -7.3900655780     -74.9752081193     0.03  
-  58     0.0042035839      -0.0000120854    10.0001004845    -7.3901534437     -74.9752202047     0.03  
-  59     0.0036808545      -0.0000102545    10.0001005480    -7.3902872846     -74.9752304592     0.03  
-  60     0.0031291783      -0.0000157050    10.0001005946    -7.3910226512     -74.9752461642     0.03  
-  61     0.0026935351      -0.0000059693    10.0001006080    -7.3909936212     -74.9752521336     0.04  
-  62     0.0023407425      -0.0000036398    10.0001005845    -7.3909263022     -74.9752557734     0.04  
-  63     0.0021763537      -0.0000036778    10.0001006189    -7.3911075261     -74.9752594512     0.04  
-  64     0.0016429368      -0.0000031949    10.0001005476    -7.3908865518     -74.9752626461     0.04  
-  65     0.0012751894      -0.0000023941    10.0001005840    -7.3909053407     -74.9752650402     0.04  
-  66     0.0009626383      -0.0000008895    10.0001005752    -7.3907921589     -74.9752659298     0.03  
-  67     0.0009040481      -0.0000009197    10.0001005672    -7.3907920579     -74.9752668495     0.04  
-  68     0.0008730955      -0.0000012971    10.0001005474    -7.3908263515     -74.9752681465     0.03  
-  69     0.0008469481      -0.0000005762    10.0001005848    -7.3908534650     -74.9752687228     0.04  
-  70     0.0013719968      +0.0000009987    10.0001006111    -7.3905067286     -74.9752677241     0.04  
-  71     0.0018100193      +0.0000008286    10.0001005952    -7.3903656254     -74.9752668955     0.03  
-  72     0.0017794157      -0.0000005755    10.0001005458    -7.3903955157     -74.9752674710     0.03  
-  73     0.0015266786      -0.0000015705    10.0001006387    -7.3905007378     -74.9752690415     0.03  
-  74     0.0013175462      -0.0000010577    10.0001006529    -7.3905949902     -74.9752700993     0.03  
-  75     0.0014796639      +0.0000001672    10.0001006138    -7.3905435923     -74.9752699321     0.03  
-  76     0.0014138851      -0.0000003602    10.0001005740    -7.3905783958     -74.9752702923     0.04  
-  77     0.0012368591      -0.0000005545    10.0001005907    -7.3906517911     -74.9752708467     0.03  
-  78     0.0010080505      -0.0000005583    10.0001005831    -7.3907419504     -74.9752714050     0.04  
-  79     0.0008345140      -0.0000003810    10.0001005910    -7.3908126589     -74.9752717860     0.03  
-  80     0.0008282826      +0.0000000218    10.0001005969    -7.3908216557     -74.9752717641     0.03  
-  81     0.0008722866      +0.0000000573    10.0001006287    -7.3908078333     -74.9752717068     0.03  
-  82     0.0005398183      -0.0000004333    10.0001006076    -7.3909349698     -74.9752721401     0.03  
-  83     0.0004152415      -0.0000001062    10.0001006106    -7.3909830113     -74.9752722463     0.04  
-  84     0.0004676767      +0.0000000018    10.0001006095    -7.3909704923     -74.9752722445     0.03  
-  85     0.0003997566      -0.0000000861    10.0001006593    -7.3910013843     -74.9752723306     0.03  
-  86     0.0003366618      -0.0000000375    10.0001006477    -7.3910282105     -74.9752723681     0.04  
-  87     0.0002820105      -0.0000000225    10.0001006472    -7.3910499015     -74.9752723906     0.03  
-  88     0.0002608227      -0.0000000094    10.0001006488    -7.3910646814     -74.9752724000     0.03  
-  89     0.0002561435      +0.0000001891    10.0001006170    -7.3910628790     -74.9752722109     0.03  
-  90     0.0002427091      -0.0000000060    10.0001006131    -7.3910852231     -74.9752722169     0.04  
-  91     0.0002481926      -0.0000000831    10.0001006404    -7.3911366631     -74.9752723000     0.03  
-  92     0.0002499620      -0.0000000246    10.0001006372    -7.3911523222     -74.9752723246     0.03  
-  93     0.0002407202      +0.0000001826    10.0001006422    -7.3910751599     -74.9752721421     0.03  
-  94     0.0003094479      +0.0000001116    10.0001006610    -7.3910487731     -74.9752720305     0.04  
-  95     0.0003209725      +0.0000001070    10.0001006437    -7.3910392308     -74.9752719234     0.03  
-  96     0.0005906746      +0.0000003228    10.0001006481    -7.3909414769     -74.9752716007     0.04  
-  97     0.0006473076      +0.0000000643    10.0001006221    -7.3909205377     -74.9752715363     0.04  
-  98     0.0006979206      +0.0000000996    10.0001005917    -7.3909004587     -74.9752714367     0.04  
-  99     0.0006046001      -0.0000000759    10.0001006106    -7.3909358479     -74.9752715127     0.03  
- 100     0.0005550613      -0.0000000345    10.0001006533    -7.3909535925     -74.9752715472     0.04  
- 101     0.0004891238      -0.0000000271    10.0001006016    -7.3909787171     -74.9752715742     0.03  
- 102     0.0003988487      -0.0000000683    10.0001006263    -7.3910128052     -74.9752716425     0.03  
- 103     0.0003250193      -0.0000000503    10.0001006452    -7.3910411152     -74.9752716928     0.03  
- 104     0.0002971511      -0.0000000252    10.0001006656    -7.3910514922     -74.9752717180     0.03  
- 105     0.0002910190      -0.0000001869    10.0001006339    -7.3910542632     -74.9752719049     0.03  
- 106     0.0002642581      -0.0000000025    10.0001006405    -7.3910645447     -74.9752719074     0.03  
- 107     0.0002225754      -0.0000000167    10.0001006663    -7.3910802508     -74.9752719241     0.03  
- 108     0.0001551512      +0.0000000045    10.0001006559    -7.3911040070     -74.9752719196     0.04  
- 109     0.0001651208      +0.0000000096    10.0001006511    -7.3911014112     -74.9752719099     0.03  
- 110     0.0001855970      +0.0000000192    10.0001006345    -7.3910934530     -74.9752718907     0.04  
- 111     0.0001596030      -0.0000000158    10.0001006674    -7.3911043701     -74.9752719065     0.03  
- 112     0.0001343025      +0.0000000049    10.0001006444    -7.3911157107     -74.9752719016     0.03  
- 113     0.0001116970      +0.0000000953    10.0001006356    -7.3911249452     -74.9752718063     0.03  
- 114     0.0000976101      +0.0000000061    10.0001006157    -7.3911306249     -74.9752718002     0.03  
- 115     0.0001049637      +0.0000000024    10.0001006061    -7.3911273328     -74.9752717979     0.04  
- 116     0.0000915388      -0.0000000150    10.0001006536    -7.3911317552     -74.9752718128     0.03  
- 117     0.0000818811      -0.0000000039    10.0001006566    -7.3911352329     -74.9752718167     0.03  
- 118     0.0000711895      -0.0000000046    10.0001006696    -7.3911391998     -74.9752718213     0.04  
- 119     0.0000622176      +0.0000000064    10.0001006564    -7.3911425190     -74.9752718148     0.04  
- 120     0.0000539543      -0.0000000083    10.0001006784    -7.3911456684     -74.9752718231     0.03  
- 121     0.0000490643      +0.0000001450    10.0001006380    -7.3911474794     -74.9752716781     0.04  
- 122     0.0000434674      +0.0000000012    10.0001006284    -7.3911495632     -74.9752716769     0.03  
- 123     0.0000386638      -0.0000000126    10.0001006654    -7.3911514120     -74.9752716895     0.04  
- 124     0.0000259376      +0.0000000029    10.0001006587    -7.3911561802     -74.9752716866     0.04  
+  13     0.0061367827      -0.0001211006    10.0000208085    -7.6060706005     -75.3196377719     0.05  
+  14     0.0042580850      -0.0000526753    10.0000208498    -7.6067210547     -75.3196904472     0.05  
+  15     0.0029159360      -0.0000234199    10.0000208725    -7.6068145997     -75.3197138671     0.04  
+  16     0.0019878741      -0.0000108792    10.0000208816    -7.6067972435     -75.3197247463     0.05  
+  17     0.0013579361      -0.0000048771    10.0000208125    -7.6068261873     -75.3197296233     0.04  
+  18     0.0009300360      -0.0000024014    10.0000208459    -7.6068573379     -75.3197320247     0.05  
+  19     0.0006368593      -0.0000011176    10.0000208534    -7.6068773875     -75.3197331423     0.04  
+  20     0.0004359925      -0.0000005266    10.0000208633    -7.6068908467     -75.3197336689     0.04  
+  21     0.0002984029      -0.0000002196    10.0000207956    -7.6068986247     -75.3197338884     0.04  
+  22     0.0002043469      -0.0000001398    10.0000208615    -7.6069028175     -75.3197340283     0.04  
+  23     0.0001398857      -0.0000000457    10.0000208528    -7.6069040682     -75.3197340740     0.04  
+  24     0.0000957642      -0.0000000389    10.0000208854    -7.6069054266     -75.3197341129     0.04  
+  25     0.0000656247      -0.0000000684    10.0000208731    -7.6069062441     -75.3197341813     0.04  
+  26     0.0000449630      +0.0000000100    10.0000208422    -7.6069067011     -75.3197341713     0.04  
+  27     0.0000307731      -0.0000000110    10.0000208656    -7.6069070104     -75.3197341823     0.04  
+  28     0.0000210592      -0.0000000010    10.0000208663    -7.6069072111     -75.3197341833     0.04  
 ----------------------------------------------------------------------------------------------------------
-FINAL ENERGY: -74.9752716866 a.u.
-WARNING: Final energy is higher than the lowest energy by    0.0064029.
+FINAL ENERGY: -75.3197341833 a.u.
 CENTER OF MASS: {0.000000, 0.000000, 0.000000} ANGS
-DIPOLE MOMENT: {-0.000004, 0.000287, 0.400009} (|D| = 0.400009) DEBYE
+DIPOLE MOMENT: {-0.000018, -0.000000, 1.607331} (|D| = 1.607331) DEBYE
 SPIN SZ:         0.000000
-SPIN S-SQUARED: 0.350383 (exact: 0.00)
+SPIN S-SQUARED: 0.000000 (exact: 0.00)
 Writing out molden info
 
 Running Mulliken population analysis...
 
-Total processing time: 3.67 sec 
+Total processing time: 1.44 sec 
 
- Job finished: Mon Feb 18 21:31:28 2019
+ Job finished: Tue Apr 16 11:38:52 2019
 
