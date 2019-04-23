@@ -51,12 +51,10 @@
       0.0,
       0.261379527150829
     ],
-    "scf_total_energy": -74.4593745473721
-  },
-  "extras:": {
+    "scf_total_energy": -74.4593745473721,
     "ccsd_same_spin_correlation_energy": 0.01342319188547,
     "ccsd_opposite_spin_correlation_energy": -0.33755091979975,
-    "ccsd_total_correlation_energy": -0.324127450017439,
+    "ccsd_correlation_energy": -0.324127450017439,
     "ccsd_total_energy": -74.7835019973896
   },
   "error": null

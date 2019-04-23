@@ -62,7 +62,7 @@
       0.261414322406395
     ],
     "scf_total_energy": -74.4593745474439,
-    "ccsd_total_correlation_energy": -0.324127345582,
+    "ccsd_correlation_energy": -0.324127345582,
     "ccsd_total_energy": -74.783501893026
   },
   "error": null
