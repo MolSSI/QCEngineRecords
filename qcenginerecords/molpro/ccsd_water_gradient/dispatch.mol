@@ -1,6 +1,8 @@
 !Title
 memory,225,M
 
+{symmetry,nosym}
+
 geometry={
 O      0.0000000000   0.0000000000  -0.1294769400
 H      0.0000000000  -1.4941873400   1.0274465100
@@ -13,4 +15,7 @@ basis={
 default,sto-3g
 }
 
-{hf}
+{HF}
+{CCSD}
+
+{force}
