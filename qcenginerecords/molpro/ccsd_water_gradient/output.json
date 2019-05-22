@@ -61,6 +61,11 @@
       0.0,
       0.261414322406395
     ],
+    "ccsd_dipole_moment": [
+      0.0,
+      0.0,
+      0.0280044096748537
+    ],
     "scf_total_energy": -74.4593745474439,
     "ccsd_correlation_energy": -0.324127345582,
     "ccsd_total_energy": -74.783501893026
