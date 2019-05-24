@@ -1,0 +1,80 @@
+
+==================================================================================
+          _____________ ________ _______________ ________     _________
+         / ___________// ______ \\_____   _____// ______ \   / ________)
+        / /_________  / /      \ \     | |     / /      \ \ | (_______
+       |  __________|| |        | |    | |    | |        | | \________ \
+        \ \_________ | |        | |    | |     \ \______/ /___________) |
+         \__________||_|        |_|    |_|      \________//____________/
+
+==================================================================================
+
+ Git hash:   5ff23660fb993cb2e1ded5b82445f5444c37b01e
+ Git date:   Mon, 29 Apr 2019 16:33:12 -0700
+ Compiler:   AppleClang 10.0.0.10001145
+ Build type: Release
+ Version:    0.5
+
+ Start time: Fri May 24 12:50:29 2019
+
+ Data directory: /Users/sebastianlee/Documents/EntosDev/entos1/data
+ Number of cores: 8
+
+ --------------------------------------------------------------------------------
+                                  command: dft
+ --------------------------------------------------------------------------------
+
+ AO basis set:                        DEF2-SVP
+ Number of AO basis functions:       24
+
+ Number of alpha electrons:           5
+ Number of beta electrons:            5
+ Number of unpaired electrons:        0
+ Spin:                                0
+
+ Theory:                              HF
+ Using density-fitting approximations.
+ DF basis set:                        DEF2-SVP-JKFIT (for |ij) products)
+ Number of DF basis functions:      113
+ Schwarz screening threshold:         1.00e-10
+ Coulomb Fitting Method:              Cholesky
+ Method for AO orthogonalization:     symmetric
+ Threshold for linear dependence:     1.00e-07
+
+ -----------------------
+ Running restricted SCF
+ -----------------------
+ Max number of iterations:          128
+ Conv. threshold (gradient):          1.00e-05
+ Conv. threshold (energy):            1.00e-06
+ Initial guess:                       SAD
+ Interpolation scheme:                ADIIS+CDIIS
+
+ ---------------------------------------------------------------
+                  energy        change          grad        time
+ ---------------------------------------------------------------
+   0       -74.944794452                    6.92e-01        0.00
+   1       -75.255019981     -3.10e-01      1.28e+00        0.00
+   2       -74.936401927      3.19e-01      1.56e+00        0.00
+   3       -75.526081075     -5.90e-01      2.68e-01        0.00
+   4       -75.516487794      9.59e-03      4.10e-01        0.00
+   5       -75.539902557     -2.34e-02      4.96e-02        0.00
+   6       -75.539980151     -7.76e-05      4.17e-02        0.00
+   7       -75.540314289     -3.34e-04      3.59e-03        0.00
+   8       -75.540316465     -2.18e-06      6.26e-04        0.00
+   9       -75.540316612     -1.47e-07      3.59e-04        0.00
+  10       -75.540316851     -2.39e-07      2.27e-04        0.00
+  11       -75.540316948     -9.66e-08      9.63e-05        0.00
+  12       -75.540316950     -2.14e-09      2.85e-06        0.00
+
+ SCF converged in 12 iterations.
+
+ Molecular Dipole:                   0.000000   -0.000000    0.870588
+ TOTAL ENERGY:                      -75.540316950
+
+ --------------------------------------------------------------------------------
+
+ End time:           Fri May 24 12:50:29 2019
+ Total time elapsed: 0.055 s
+
+==================================================================================
