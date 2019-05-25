@@ -1,9 +1,5 @@
-recursive-include qcenginerecords *.dat
-recursive-include qcenginerecords *.json
-recursive-include qcenginerecords *.out
-recursive-include qcenginerecords *.py
-recursive-include qcenginerecords *.xml
-recursive-include qcenginerecords *.yaml
+graft qcenginerecords
+global-exclude *.py[cod] __pycache__ *.so
 
 include setup.py
 include README.md
@@ -11,4 +7,3 @@ include LICENSE
 include MANIFEST.in
 
 include versioneer.py
-include qcenginerecords/_version.py

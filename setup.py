@@ -2,7 +2,7 @@
 QCEngineVault
 A collection of input and output files for QCEngine parsers.
 """
-from setuptools import setup
+from setuptools import setup, find_packages
 import versioneer
 
 short_description = __doc__.split("\n")
@@ -26,14 +26,8 @@ setup(
     cmdclass=versioneer.get_cmdclass(),
     license='BSD-3-Clause',
 
-    # Which Python importable modules should be included when your package is installed
-    packages=['qcenginerecords', "qcenginerecords.tests"],
-
-    # Optional include package data to ship with your package
-    # Comment out this line to prevent the files from being packaged with your software
-    # Extend/modify the list to include/exclude other items as need be
-    package_data={'qcenginerecords': ["data/*.dat"]
-                  },
+    packages=find_packages(),
+    include_package_data=True,
 
     # Additional entries you may want simply uncomment the lines you want and fill in the data
     # author_email='me@place.org',      # Author email
