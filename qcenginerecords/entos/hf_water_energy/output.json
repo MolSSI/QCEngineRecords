@@ -37,21 +37,24 @@
   "id": null,
   "schema_name": "qcschema_output",
   "schema_version": 1,
-  "keywords": {},
+  "keywords": {
+    "df_basis": "def2-svp-jkfit"
+  },
   "provenance": {
     "creator": "QCElemental",
     "version": "v0.2.6",
     "routine": "qcelemental.models.results"
   },
   "success": true,
-  "return_result": -75.540316950,
+  "return_result": -75.955313284,
   "properties": {
     "scf_dipole_moment": [
       -0.000000,
        0.000000,
-       0.870588
+       0.856345
     ],
-    "scf_total_energy": -75.540316950
+    "scf_total_energy": -75.955313284,
+    "scf_iterations": 9
   },
   "error": null
 }

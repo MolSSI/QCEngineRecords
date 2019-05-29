@@ -1,11 +1,11 @@
 
 ==================================================================================
-          _____________ ________ _______________ ________     _________
-         / ___________// ______ \\_____   _____// ______ \   / ________)
-        / /_________  / /      \ \     | |     / /      \ \ | (_______
-       |  __________|| |        | |    | |    | |        | | \________ \
+          _____________ ________ _______________ ________     _________  
+         / ___________// ______ \\_____   _____// ______ \   / ________) 
+        / /_________  / /      \ \     | |     / /      \ \ | (_______   
+       |  __________|| |        | |    | |    | |        | | \________ \ 
         \ \_________ | |        | |    | |     \ \______/ /___________) |
-         \__________||_|        |_|    |_|      \________//____________/
+         \__________||_|        |_|    |_|      \________//____________/ 
 
 ==================================================================================
 
@@ -15,7 +15,7 @@
  Build type: Release
  Version:    0.5
 
- Start time: Fri May 24 12:50:29 2019
+ Start time: Wed May 29 11:28:28 2019
 
  Data directory: /Users/sebastianlee/Documents/EntosDev/entos1/data
  Number of cores: 8
@@ -24,7 +24,7 @@
                                   command: dft
  --------------------------------------------------------------------------------
 
- AO basis set:                        DEF2-SVP
+ AO basis set:                        DEF2-SVP                                                      
  Number of AO basis functions:       24
 
  Number of alpha electrons:           5
@@ -32,13 +32,13 @@
  Number of unpaired electrons:        0
  Spin:                                0
 
- Theory:                              HF
+ Theory:                              HF                                                            
  Using density-fitting approximations.
- DF basis set:                        DEF2-SVP-JKFIT (for |ij) products)
+ DF basis set:                        DEF2-SVP-JKFIT (for |ij) products)                            
  Number of DF basis functions:      113
  Schwarz screening threshold:         1.00e-10
- Coulomb Fitting Method:              Cholesky
- Method for AO orthogonalization:     symmetric
+ Coulomb Fitting Method:              Cholesky                                                      
+ Method for AO orthogonalization:     symmetric                                                     
  Threshold for linear dependence:     1.00e-07
 
  -----------------------
@@ -47,34 +47,31 @@
  Max number of iterations:          128
  Conv. threshold (gradient):          1.00e-05
  Conv. threshold (energy):            1.00e-06
- Initial guess:                       SAD
- Interpolation scheme:                ADIIS+CDIIS
+ Initial guess:                       SAD                                                           
+ Interpolation scheme:                ADIIS+CDIIS                                                   
 
  ---------------------------------------------------------------
                   energy        change          grad        time
  ---------------------------------------------------------------
-   0       -74.944794452                    6.92e-01        0.00
-   1       -75.255019981     -3.10e-01      1.28e+00        0.00
-   2       -74.936401927      3.19e-01      1.56e+00        0.00
-   3       -75.526081075     -5.90e-01      2.68e-01        0.00
-   4       -75.516487794      9.59e-03      4.10e-01        0.00
-   5       -75.539902557     -2.34e-02      4.96e-02        0.00
-   6       -75.539980151     -7.76e-05      4.17e-02        0.00
-   7       -75.540314289     -3.34e-04      3.59e-03        0.00
-   8       -75.540316465     -2.18e-06      6.26e-04        0.00
-   9       -75.540316612     -1.47e-07      3.59e-04        0.00
-  10       -75.540316851     -2.39e-07      2.27e-04        0.00
-  11       -75.540316948     -9.66e-08      9.63e-05        0.00
-  12       -75.540316950     -2.14e-09      2.85e-06        0.00
+   0       -75.765175142                    4.76e+00        0.00
+   1       -75.910655769     -1.45e-01      6.79e-01        0.00
+   2       -75.943272707     -3.26e-02      3.60e-01        0.00
+   3       -75.951101207     -7.83e-03      1.99e-01        0.00
+   4       -75.954700702     -3.60e-03      7.73e-02        0.00
+   5       -75.955094095     -3.93e-04      4.50e-02        0.00
+   6       -75.955313259     -2.19e-04      2.84e-04        0.00
+   7       -75.955313284     -2.49e-08      3.92e-05        0.00
+   8       -75.955313284     -3.60e-10      1.48e-05        0.00
+   9       -75.955313284     -3.99e-11      1.63e-06        0.00
 
- SCF converged in 12 iterations.
+ SCF converged in 9 iterations.
 
- Molecular Dipole:                   0.000000   -0.000000    0.870588
- TOTAL ENERGY:                      -75.540316950
+ Molecular Dipole:                  -0.000000    0.000000    0.856345
+ TOTAL ENERGY:                      -75.955313284
 
  --------------------------------------------------------------------------------
 
- End time:           Fri May 24 12:50:29 2019
- Total time elapsed: 0.055 s
+ End time:           Wed May 29 11:28:28 2019
+ Total time elapsed: 0.053 s
 
 ==================================================================================

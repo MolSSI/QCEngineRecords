@@ -8,7 +8,9 @@
         "connectivity": [[0, 1, 1], [0, 2, 1]]
     },
     "driver": "energy",
-    "keywords": {},
+    "keywords": {
+        "df_basis": "def2-svp-jkfit"
+    },
     "model": {
         "method": "HF",
         "basis": "def2-svp"
