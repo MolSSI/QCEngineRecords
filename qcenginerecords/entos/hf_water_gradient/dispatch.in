@@ -1,0 +1,15 @@
+gradient(
+  structure(
+    file = 'geometry.xyz'
+  )
+  dft(
+    xc='HF'
+    ao = 'DEF2-SVP'
+    charge = 0.0
+    df_basis = 'DEF2-SVP-JKFIT'
+    print_level = 1
+  )
+)
+print(
+  results = true
+)

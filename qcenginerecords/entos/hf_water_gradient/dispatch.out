@@ -1,0 +1,98 @@
+
+==================================================================================
+          _____________ ________ _______________ ________     _________  
+         / ___________// ______ \\_____   _____// ______ \   / ________) 
+        / /_________  / /      \ \     | |     / /      \ \ | (_______   
+       |  __________|| |        | |    | |    | |        | | \________ \ 
+        \ \_________ | |        | |    | |     \ \______/ /___________) |
+         \__________||_|        |_|    |_|      \________//____________/ 
+
+==================================================================================
+
+ Git hash:   afecee5dbfc31b9a3e6fb359584350f36a8c6af5
+ Git date:   Wed, 29 May 2019 17:15:01 +0000
+ Compiler:   AppleClang 10.0.0.10001145
+ Build type: Release
+ Version:    0.5
+
+ Start time: Thu May 30 13:43:38 2019
+
+ Data directory: /Users/sebastianlee/Documents/EntosDev/entos1/data
+ Number of cores: 8
+
+ --------------------------------------------------------------------------------
+                               command: gradient
+ --------------------------------------------------------------------------------
+
+ AO basis set:                        DEF2-SVP                                                      
+ Number of AO basis functions:       24
+ Radial threshold:                    1.00e-06
+
+ Number of alpha electrons:           5
+ Number of beta electrons:            5
+ Number of unpaired electrons:        0
+ Spin:                                0
+
+ Theory:                              HF                                                            
+ Using density-fitting approximations.
+ DF basis set:                        DEF2-SVP-JKFIT (for |ij) products)                            
+ Number of DF basis functions:      113
+ Schwarz screening threshold:         1.00e-10
+ Coulomb Fitting Method:              Cholesky                                                      
+ Method for AO orthogonalization:     symmetric                                                     
+ Threshold for linear dependence:     1.00e-07
+
+ -----------------------
+ Running restricted SCF
+ -----------------------
+ Max number of iterations:          128
+ Conv. threshold (gradient):          1.00e-05
+ Conv. threshold (energy):            1.00e-06
+ Initial guess:                       SAD                                                           
+ Interpolation scheme:                ADIIS+CDIIS                                                   
+
+ ---------------------------------------------------------------
+                  energy        change          grad        time
+ ---------------------------------------------------------------
+   0       -75.765175142                    4.76e+00        0.00
+ Switching to ADIIS Fock extrapolator
+   1       -75.910655769     -1.45e-01      6.79e-01        0.00
+   2       -75.943272708     -3.26e-02      3.60e-01        0.00
+   3       -75.951101207     -7.83e-03      1.99e-01        0.00
+   4       -75.954700702     -3.60e-03      7.73e-02        0.00
+   5       -75.955094095     -3.93e-04      4.50e-02        0.00
+   6       -75.955313259     -2.19e-04      2.84e-04        0.00
+   7       -75.955313284     -2.49e-08      3.92e-05        0.00
+   8       -75.955313284     -3.60e-10      1.48e-05        0.00
+   9       -75.955313284     -3.98e-11      1.63e-06        0.00
+
+ SCF converged in 9 iterations.
+
+ Molecular Dipole:                  -0.000000    0.000000    0.856345
+
+ --------------------
+ Analytical gradient
+ --------------------
+
+ Gradient (hartree/bohr):
+                         X                   Y                   Z
+ 1             0.000000000         0.000000000        -0.063314381
+ 2            -0.000000000        -0.043915407         0.031657190
+ 3            -0.000000000         0.043915407         0.031657190
+
+ --------------------------------------------------------------------------------
+                                 command: print
+ --------------------------------------------------------------------------------
+
+ Results for previous
+ --------------------
+ energy:                            -75.9553132845
+ gradient:                            matrix                                                        
+
+
+ --------------------------------------------------------------------------------
+
+ End time:           Thu May 30 13:43:38 2019
+ Total time elapsed: 0.063 s
+
+==================================================================================
