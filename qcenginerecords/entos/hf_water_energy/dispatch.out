@@ -9,13 +9,13 @@
 
 ==================================================================================
 
- Git hash:   5ff23660fb993cb2e1ded5b82445f5444c37b01e
- Git date:   Mon, 29 Apr 2019 16:33:12 -0700
+ Git hash:   afecee5dbfc31b9a3e6fb359584350f36a8c6af5
+ Git date:   Wed, 29 May 2019 17:15:01 +0000
  Compiler:   AppleClang 10.0.0.10001145
  Build type: Release
  Version:    0.5
 
- Start time: Wed May 29 11:28:28 2019
+ Start time: Thu May 30 13:35:51 2019
 
  Data directory: /Users/sebastianlee/Documents/EntosDev/entos1/data
  Number of cores: 8
@@ -62,7 +62,7 @@
    6       -75.955313259     -2.19e-04      2.84e-04        0.00
    7       -75.955313284     -2.49e-08      3.92e-05        0.00
    8       -75.955313284     -3.60e-10      1.48e-05        0.00
-   9       -75.955313284     -3.99e-11      1.63e-06        0.00
+   9       -75.955313284     -3.98e-11      1.63e-06        0.00
 
  SCF converged in 9 iterations.
 
@@ -70,8 +70,29 @@
  TOTAL ENERGY:                      -75.955313284
 
  --------------------------------------------------------------------------------
+                                 command: print
+ --------------------------------------------------------------------------------
 
- End time:           Wed May 29 11:28:28 2019
- Total time elapsed: 0.053 s
+ Results for previous
+ --------------------
+ energy:                            -75.9553132845
+ converged:                           true                                                          
+ n_iter:                              9
+ ao_basis:                            basis                                                         
+ structure:                           atoms                                                         
+ n_channels:                          1
+ homo:                               -0.4950881450
+ lumo:                                0.1693336888
+ density:                             matrix                                                        
+ orbitals:                            matrix                                                        
+ eigenvalues:                         vector                                                        
+ occupations:                         vector                                                        
+ fock:                                matrix                                                        
+
+
+ --------------------------------------------------------------------------------
+
+ End time:           Thu May 30 13:35:51 2019
+ Total time elapsed: 0.055 s
 
 ==================================================================================
