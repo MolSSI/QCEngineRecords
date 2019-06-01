@@ -6,6 +6,7 @@ import qcelemental as qcel
 
 def test_list_programs():
     assert "molpro" in qcev.list_programs()
+    assert "entos" in qcev.list_programs()
     assert "terachem" in qcev.list_programs()
 
 

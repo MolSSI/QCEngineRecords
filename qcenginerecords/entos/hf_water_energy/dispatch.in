@@ -1,0 +1,12 @@
+dft(
+  structure(
+    file = 'geometry.xyz'
+  )
+  xc='HF'
+  ao = 'DEF2-SVP'
+  df_basis = 'DEF2-SVP-JKFIT'
+  charge = 0.0
+)
+print(
+  results = true
+)

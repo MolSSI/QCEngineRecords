@@ -66,6 +66,12 @@ INFO["molpro"] = build_test_info("molpro", {
     "dispatch.xml",
 })
 
+# Entos
+INFO["entos"] = build_test_info("entos", {
+    "dispatch.in",
+    "dispatch.out"
+})
+
 INFO["terachem"] = build_test_info("terachem", {
     "tc.in",
     "tc.out",
