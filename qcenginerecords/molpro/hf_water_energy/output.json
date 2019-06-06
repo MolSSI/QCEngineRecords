@@ -1,33 +1,14 @@
 {
   "molecule": {
-    "symbols": [
-      "O",
-      "H",
-      "H"
-    ],
+    "symbols": ["O", "H", "H"],
     "geometry": [
-      0.0,
-      0.0,
-      -0.12947694,
-      0.0,
-      -1.49418734,
-      1.02744651,
-      0.0,
-      1.49418734,
-      1.02744651
+      0.0, 0.0, -0.12947694,
+      0.0, -1.49418734, 1.02744651,
+      0.0, 1.49418734, 1.02744651
     ],
-    "connectivity": [
-      [
-        0,
-        1,
-        1.0
-      ],
-      [
-        0,
-        2,
-        1.0
-      ]
-    ]
+    "connectivity": [[0, 1, 1.0], [0, 2, 1.0]],
+    "fix_orientation": true,
+    "fix_symmetry": "c1"
   },
   "driver": "energy",
   "model": {
@@ -46,11 +27,7 @@
   "success": true,
   "return_result": -74.4593745467868,
   "properties": {
-    "scf_dipole_moment": [
-      0.0,
-      0.0,
-      0.261379527522662
-    ],
+    "scf_dipole_moment": [0.0, 0.0, 0.261379527522662],
     "scf_total_energy": -74.4593745467868
   },
   "error": null
