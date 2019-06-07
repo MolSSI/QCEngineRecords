@@ -1,8 +1,8 @@
 
- Primary working directories    : /tmp/sjlee/molpro.6YJayBa51q
- Secondary working directories  : /tmp/sjlee/molpro.6YJayBa51q
+ Primary working directories    : /tmp/sjlee/molpro.PcpXTCVgLS
+ Secondary working directories  : /tmp/sjlee/molpro.PcpXTCVgLS
  Wavefunction directory         : /home/sjlee/wfu/
- Main file repository           : /tmp/sjlee/molpro.6YJayBa51q/
+ Main file repository           : /tmp/sjlee/molpro.PcpXTCVgLS/
 
  id        : sjlee
 
@@ -13,14 +13,17 @@
  default implementation of scratch files=df  
 
 
- Variables initialized (932), CPU time= 0.00 sec
-                                                                                 !Title
+ Variables initialized (934), CPU time= 0.00 sec
  memory,225,M
  
+ {orient,noorient}
+ {symmetry,nosym}
+ 
+ {bohr}
  geometry={
- O      0.0000000000   0.0000000000  -0.1294769400
- H      0.0000000000  -1.4941873400   1.0274465100
- H      0.0000000000   1.4941873400   1.0274465100
+ O                     0.000000000000     0.000000000000    -0.129476940000
+ H                     0.000000000000    -1.494187340000     1.027446510000
+ H                     0.000000000000     1.494187340000     1.027446510000
  }
  set,charge=0.0
  set,multiplicity=1
@@ -30,7 +33,7 @@
  }
  
  {HF}
- Commands  initialized (760), CPU time= 0.01 sec, 617 directives.
+ Commands  initialized (761), CPU time= 0.01 sec, 617 directives.
  Default parameters read. Elapsed time= 0.08 sec
 
  Checking input...
@@ -40,24 +43,27 @@
 
                                          ***  PROGRAM SYSTEM MOLPRO  ***
                                        Copyright, TTI GmbH Stuttgart, 2015
-                                    Version 2019.2 linked Feb  8 2019 17:08:54
+                                    Version 2019.2 linked May  2 2019 15:37:00
 
 
  **********************************************************************************************************************************
  LABEL *                                                                                 
-  64 bit serial version                                                                  DATE: 14-Feb-19          TIME: 15:37:00  
+  64 bit serial version                                                                  DATE: 07-Jun-19          TIME: 12:06:20  
  **********************************************************************************************************************************
 
- SHA1:             6e5d09d908ab7aa4cd5fcccf11b81a835b2872a1
+ SHA1:             8138d7467d1acbebe89db460979ba3ffe8b2d70c
  **********************************************************************************************************************************
+
+ Variable memory set to  225000000 words,  buffer space 
+
+ ZSYMEL=NOSYM
+ ZUNIT=BOHR
+
 
 Geometry recognized as XYZ
 
  SETTING CHARGE         =     0.00000000D+00                                  
  SETTING MULTIPLICITY   =         1.00000000                                  
-
- Variable memory set to  225000000 words,  buffer space 
-
  SETTING BASIS          =    STO-3G
 
 
@@ -76,7 +82,7 @@ Geometry recognized as XYZ
  Geometry written to block  1 of record 700
 
 
- Point group  C2v 
+ Point group  C1  
 
 
 
@@ -84,25 +90,34 @@ Geometry recognized as XYZ
 
  NR  ATOM    CHARGE       X              Y              Z
 
-   1  O       8.00    0.000000000    0.000000000   -0.244675956
-   2  H       1.00    0.000000000   -2.823604851    1.941592512
-   3  H       1.00    0.000000000    2.823604851    1.941592512
+   1  O       8.00    0.000000000    0.000000000   -0.129476940
+   2  H       1.00    0.000000000   -1.494187340    1.027446510
+   3  H       1.00    0.000000000    1.494187340    1.027446510
+
+ Bond lengths in Bohr (Angstrom)
+
+ 1-2  1.889726879  1-3  1.889726879
+     ( 1.000000399)     ( 1.000000399)
+
+ Bond angles
+
+  2-1-3  104.49999998
 
  NUCLEAR CHARGE:                   10
  NUMBER OF PRIMITIVE AOS:          21
  NUMBER OF SYMMETRY AOS:           21
- NUMBER OF CONTRACTIONS:            7   (    4A1  +    1B1  +    2B2  +    0A2  )
- NUMBER OF CORE ORBITALS:           1   (    1A1  +    0B1  +    0B2  +    0A2  )
- NUMBER OF VALENCE ORBITALS:        6   (    3A1  +    1B1  +    2B2  +    0A2  )
+ NUMBER OF CONTRACTIONS:            7   (    7A   )
+ NUMBER OF CORE ORBITALS:           1   (    1A   )
+ NUMBER OF VALENCE ORBITALS:        6   (    6A   )
 
 
- NUCLEAR REPULSION ENERGY    4.65753314
+ NUCLEAR REPULSION ENERGY    8.80146206
+
+ EXTRA SYMMETRY OF AOS IN SYMMETRY 1:   1 1 2 1 1 1 1
 
  Eigenvalues of metric
 
-         1 0.731E+00 0.926E+00 0.108E+01 0.128E+01
-         2 0.100E+01
-         3 0.875E+00 0.111E+01
+         1 0.370E+00 0.448E+00 0.886E+00 0.100E+01 0.110E+01 0.132E+01 0.188E+01
 
 
  Contracted 2-electron integrals neglected if value below      1.0D-11
@@ -111,13 +126,13 @@ Geometry recognized as XYZ
      0.262 MB (compressed) written to integral file (100.0%)
 
 
- NUMBER OF SORTED TWO-ELECTRON INTEGRALS:        191.     BUFFER LENGTH:  32768
- NUMBER OF SEGMENTS:   1  SEGMENT LENGTH:        191      RECORD LENGTH: 524288
+ NUMBER OF SORTED TWO-ELECTRON INTEGRALS:        406.     BUFFER LENGTH:  32768
+ NUMBER OF SEGMENTS:   1  SEGMENT LENGTH:        406      RECORD LENGTH: 524288
 
  Memory used in sort:       0.56 MW
 
- SORT1 READ         219. AND WROTE         171. INTEGRALS IN      1 RECORDS. CPU TIME:     0.00 SEC, REAL TIME:     0.01 SEC
- SORT2 READ         171. AND WROTE         191. INTEGRALS IN      1 RECORDS. CPU TIME:     0.00 SEC, REAL TIME:     0.00 SEC
+ SORT1 READ         543. AND WROTE         228. INTEGRALS IN      1 RECORDS. CPU TIME:     0.00 SEC, REAL TIME:     0.00 SEC
+ SORT2 READ         228. AND WROTE         406. INTEGRALS IN      1 RECORDS. CPU TIME:     0.00 SEC, REAL TIME:     0.00 SEC
 
  FILE SIZES:   FILE 1:    30.2 MBYTE,  FILE 4:     4.2 MBYTE,   TOTAL:     34.5 MBYTE
 
@@ -132,8 +147,8 @@ Geometry recognized as XYZ
                                            T        V       H0       H01     AOSYM     SMH    MOLCAS    ERIS     OPER   
 
  PROGRAMS   *        TOTAL       INT
- CPU TIMES  *         0.50      0.34
- REAL TIME  *        10.85 SEC
+ CPU TIMES  *         0.38      0.25
+ REAL TIME  *         0.57 SEC
  DISK USED  *        34.75 MB
  **********************************************************************************************************************************
 
@@ -141,7 +156,7 @@ Geometry recognized as XYZ
  PROGRAM * RHF-SCF (CLOSED SHELL)       Authors: W. Meyer, H.-J. Werner
 
 
- NUMBER OF ELECTRONS:       5+    5-
+ NUMBER OF ELECTRONS:       5+    5-    SPACE SYMMETRY=1    SPIN SYMMETRY: Singlet 
  CONVERGENCE THRESHOLDS:    1.00E-05 (Density)    1.00E-07 (Energy)
  MAX. NUMBER OF ITERATIONS:       60
  INTERPOLATION TYPE:            DIIS
@@ -150,50 +165,41 @@ Geometry recognized as XYZ
 
 
 
- Orbital guess generated from atomic densities. Full valence occupancy:    4   1   2   0
+ Orbital guess generated from atomic densities. Full valence occupancy:    5
 
  Molecular orbital dump at record        2100.2
 
- Initial occupancy:   3   1   1
+ Initial occupancy:   5
 
  ITERATION    DDIFF          GRAD             ENERGY        2-EL.EN.            DIPOLE MOMENTS         DIIS   ORB.
-    1      0.000D+00      0.000D+00       -73.75780540     82.722759    0.00000    0.00000    3.58909    0    start
-    2      0.000D+00      0.206D+00       -73.63194479     55.811199    0.00000    0.00000   -3.65056    1    diag
-    3      0.886D+00      0.206D+00       -74.45309118     69.592563    0.00000    0.00000    0.54524    2    diag
-    4      0.532D+00      0.295D-01       -74.45597364     69.285245    0.00000    0.00000    0.49559    3    diag
-    5      0.124D-01      0.215D-01       -74.45775599     68.993196    0.00000    0.00000    0.42141    4    diag
-    6      0.955D-02      0.147D-01       -74.45879148     68.733474    0.00000    0.00000    0.35449    5    diag
-    7      0.871D-02      0.867D-02       -74.45925591     68.515388    0.00000    0.00000    0.29813    6    diag
-    8      0.769D-02      0.357D-02       -74.45937447     68.373834    0.00000    0.00000    0.26222    7    diag
-    9      0.147D-01      0.840D-04       -74.45937455     68.370668    0.00000    0.00000    0.26145    8    diag
-   10      0.461D-03      0.364D-05       -74.45937455     68.370604    0.00000    0.00000    0.26144    9    orth
-   11      0.220D-05      0.214D-05       -74.45937455     68.370384    0.00000    0.00000    0.26138    0    orth
+    1      0.000D+00      0.000D+00       -74.86380095     79.459600   -0.00000   -0.00000    1.28957    0    start
+    2      0.000D+00      0.810D-01       -74.96352339     75.492370   -0.00000   -0.00000    0.61950    1    diag
+    3      0.141D+00      0.985D-02       -74.96463086     75.823916   -0.00000   -0.00000    0.66263    2    diag
+    4      0.112D-01      0.139D-02       -74.96466226     75.821106   -0.00000   -0.00000    0.65680    3    diag
+    5      0.290D-02      0.909D-04       -74.96466250     75.821628   -0.00000   -0.00000    0.65672    4    diag
+    6      0.256D-03      0.198D-04       -74.96466252     75.821274   -0.00000    0.00000    0.65662    5    diag
+    7      0.747D-04      0.680D-06       -74.96466252     75.821303   -0.00000   -0.00000    0.65663    6    diag
+    8      0.167D-05      0.650D-09       -74.96466252     75.821303   -0.00000   -0.00000    0.65663    0    orth
 
- Final occupancy:   3   1   1
+ Final occupancy:   5
 
- !RHF STATE  1.1 Energy               -74.459374546787
- Nuclear energy                         4.65753314
- One-electron energy                 -113.30209964
- Two-electron energy                   34.18519195
- Virial quotient                       -1.00087133
- !RHF STATE  1.1 Dipole moment          0.00000000     0.00000000     0.26137953
- Dipole moment /Debye                   0.00000000     0.00000000     0.66431698
+ !RHF STATE  1.1 Energy               -74.964662516694
+ Nuclear energy                         8.80146206
+ One-electron energy                 -121.67677627
+ Two-electron energy                   37.91065169
+ Virial quotient                       -1.00628987
+ !RHF STATE  1.1 Dipole moment         -0.00000000    -0.00000000     0.65662910
+ Dipole moment /Debye                  -0.00000000    -0.00000000     1.66887539
 
  Orbital energies:
 
-         1.1          2.1          3.1          4.1
-    -20.314725    -1.128943    -0.303268     0.124007
-
-         1.2
-     -0.408197
-
-         1.3          2.3
-     -0.310725     0.163924
+         1.1          2.1          3.1          4.1          5.1          6.1          7.1
+    -20.247270    -1.247774    -0.595851    -0.447884    -0.388956     0.564152     0.693007
 
 
- HOMO      3.1    -0.303268 =      -8.2524eV
- LUMO      4.1     0.124007 =       3.3744eV
- LUMO-HOMO         0.427275 =      11.6267eV
+ HOMO      5.1    -0.388956 =     -10.5840eV
+ LUMO      6.1     0.564152 =      15.3514eV
+ LUMO-HOMO         0.953108 =      25.9354eV
 
 
  **********************************************************************************************************************************
@@ -207,8 +213,8 @@ Geometry recognized as XYZ
                                          GEOM     BASIS   MCVARS     RHF  
 
  PROGRAMS   *        TOTAL    HF-SCF       INT
- CPU TIMES  *         0.63      0.13      0.34
- REAL TIME  *        11.33 SEC
+ CPU TIMES  *         0.49      0.11      0.25
+ REAL TIME  *         0.70 SEC
  DISK USED  *        34.75 MB
  **********************************************************************************************************************************
  Molecular orbitals read from record     2100.2  Type=RHF/CANONICAL (state 1.1)
@@ -216,9 +222,9 @@ Geometry recognized as XYZ
  Orbital energies read from record       2100.2  Type=RHF/CANONICAL (state 1.1)
  Redundancy group numbers read from rec  2100.2  Type=RHF/RHF (state 1.1)
 
- HF/STO-3G energy=    -74.459374546787
+ HF/STO-3G energy=    -74.964662516694
 
           HF-SCF
-    -74.45937455
+    -74.96466252
  **********************************************************************************************************************************
  Molpro calculation terminated
