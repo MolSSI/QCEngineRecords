@@ -2,7 +2,9 @@
     "molecule": {
         "symbols": ["O", "H", "H"],
         "geometry": [0.0, 0.0, -0.12947694, 0.0, -1.49418734, 1.02744651, 0.0, 1.49418734, 1.02744651],
-        "connectivity": [[0, 1, 1.0], [0, 2, 1.0]]
+        "connectivity": [[0, 1, 1.0], [0, 2, 1.0]],
+        "fix_orientation": true,
+        "fix_symmetry": "c1"
     },
     "driver": "energy",
     "model": {
@@ -19,14 +21,14 @@
         "routine": "qcelemental.models.results"
     },
     "success": true,
-    "return_result": -74.6708958620309,
+    "return_result": -75.0037274835668,
     "properties": {
-        "scf_dipole_moment": [-2.6062222989074e-16, 7.99360577730113e-15, 0.261379527150829],
-        "scf_total_energy": -74.4593745473721,
-        "mp2_same_spin_correlation_energy": -0.0191663554143,
-        "mp2_opposite_spin_correlation_energy": -0.192354959244,
-        "mp2_correlation_energy": -0.211521314658757,
-        "mp2_total_energy": -74.6708958620309
+        "scf_dipole_moment": [0.0, 0.0, 0.65662910269302],
+        "scf_total_energy": -74.9646625166939,
+        "mp2_same_spin_correlation_energy": -0.0022925061427209533,
+        "mp2_opposite_spin_correlation_energy": -0.03677246073014658,
+        "mp2_correlation_energy": -0.0390649668728675,
+        "mp2_total_energy": -75.0037274835668
     },
     "error": null
 }

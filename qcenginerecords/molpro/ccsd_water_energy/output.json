@@ -27,7 +27,9 @@
         2,
         1.0
       ]
-    ]
+    ],
+    "fix_orientation": true,
+    "fix_symmetry": "c1"
   },
   "driver": "energy",
   "model": {
@@ -44,18 +46,14 @@
     "routine": "qcelemental.models.results"
   },
   "success": true,
-  "return_result": -74.7835019973896,
+  "return_result": -75.0196418084857,
   "properties": {
-    "scf_dipole_moment": [
-      0.0,
-      0.0,
-      0.261379527150829
-    ],
-    "scf_total_energy": -74.4593745473721,
-    "ccsd_same_spin_correlation_energy": 0.01342319188547,
-    "ccsd_opposite_spin_correlation_energy": -0.33755091979975,
-    "ccsd_correlation_energy": -0.324127450017439,
-    "ccsd_total_energy": -74.7835019973896
+    "scf_dipole_moment": [0.0, 0.0, 0.65662910269302],
+    "scf_total_energy": -74.9646625166939,
+    "ccsd_same_spin_correlation_energy": -0.0019035720854254133,
+    "ccsd_opposite_spin_correlation_energy": -0.0530757170419502,
+    "ccsd_correlation_energy": -0.0549792917918461,
+    "ccsd_total_energy": -75.0196418084857
   },
   "error": null
 }
