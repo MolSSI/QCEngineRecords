@@ -1,0 +1,19 @@
+memory,225,M
+
+{orient,noorient}
+{symmetry,nosym}
+
+{bohr}
+geometry={
+O                     0.000000000000     0.000000000000    -0.129476940000
+H                     0.000000000000    -1.494187340000     1.027446510000
+H                     0.000000000000     1.494187340000     1.027446510000
+}
+set,charge=0.0
+set,multiplicity=1
+
+basis={
+default,sto-3g
+}
+
+{rks,B3LYP}
