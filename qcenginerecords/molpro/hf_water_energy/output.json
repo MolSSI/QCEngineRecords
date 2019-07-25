@@ -27,6 +27,7 @@
   "success": true,
   "return_result": -74.9646625166939,
   "properties": {
+    "nuclear_repulsion_energy": 8.80146205625184,
     "scf_dipole_moment": [0.0, 0.0, 0.65662910269302],
     "scf_total_energy": -74.9646625166939
   },
