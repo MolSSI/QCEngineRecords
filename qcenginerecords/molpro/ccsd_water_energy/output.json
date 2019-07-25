@@ -48,6 +48,7 @@
   "success": true,
   "return_result": -75.0196418084857,
   "properties": {
+    "nuclear_repulsion_energy": 8.80146205625184,
     "scf_dipole_moment": [0.0, 0.0, 0.65662910269302],
     "scf_total_energy": -74.9646625166939,
     "ccsd_same_spin_correlation_energy": -0.0019035720854254133,
