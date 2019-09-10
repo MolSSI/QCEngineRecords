@@ -9,7 +9,7 @@
     "fix_orientation": true,
     "fix_symmetry": "c1"
   },
-  "driver": "energy",
+  "driver": "gradient",
   "model": {
     "method": "UHF",
     "basis": "sto-3g"
