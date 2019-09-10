@@ -15,6 +15,6 @@ basis={
 default,sto-3g
 }
 
-{uks,B3LYP}
+{UKS,B3LYP}
 
 {force}

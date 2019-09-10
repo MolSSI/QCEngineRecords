@@ -16,4 +16,4 @@ basis={
 default,sto-3g
 }
 
-{rks,B3LYP}
+{RKS,B3LYP}

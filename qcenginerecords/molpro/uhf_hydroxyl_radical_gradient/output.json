@@ -11,7 +11,7 @@
   },
   "driver": "gradient",
   "model": {
-    "method": "UHF",
+    "method": "HF",
     "basis": "sto-3g"
   },
   "id": null,
