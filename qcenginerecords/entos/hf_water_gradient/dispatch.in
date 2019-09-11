@@ -4,9 +4,9 @@ gradient(
   )
   dft(
     xc='HF'
-    ao = 'DEF2-SVP'
+    ao = 'def2-svp'
     charge = 0.0
-    df_basis = 'DEF2-SVP-JKFIT'
+    df = 'def2-svp-jkfit'
     print_level = 1
   )
 )

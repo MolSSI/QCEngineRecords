@@ -3,8 +3,8 @@ dft(
     file = 'geometry.xyz'
   )
   xc='HF'
-  ao = 'DEF2-SVP'
-  df_basis = 'DEF2-SVP-JKFIT'
+  ao = 'def2-svp'
+  df = 'def2-svp-jkfit'
   charge = 0.0
 )
 print(

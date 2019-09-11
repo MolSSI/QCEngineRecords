@@ -9,7 +9,7 @@
     },
     "driver": "energy",
     "keywords": {
-        "df_basis": "def2-svp-jkfit"
+        "df": "def2-svp-jkfit"
     },
     "model": {
         "method": "HF",
