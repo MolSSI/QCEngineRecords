@@ -58,13 +58,7 @@
     0.031657190
   ],
   "properties": {
-    "scf_dipole_moment": [
-      -0.000000,
-       0.000000,
-       0.856345
-    ],
-    "scf_total_energy": -75.955313284,
-    "scf_iterations": 9
+    "scf_total_energy": -75.955313284
   },
   "error": null
 }

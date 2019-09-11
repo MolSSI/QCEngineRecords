@@ -3,11 +3,11 @@ gradient(
     file = 'geometry.xyz'
   )
   dft(
-    xc='HF'
+    xc = 'HF'
     ao = 'def2-svp'
     charge = 0.0
+    spin = 0.0
     df = 'def2-svp-jkfit'
-    print_level = 1
   )
 )
 print(

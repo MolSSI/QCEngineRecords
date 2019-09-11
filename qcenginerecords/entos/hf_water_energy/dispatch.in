@@ -2,10 +2,12 @@ dft(
   structure(
     file = 'geometry.xyz'
   )
-  xc='HF'
+  xc = 'HF'
   ao = 'def2-svp'
-  df = 'def2-svp-jkfit'
   charge = 0.0
+  spin = 0.0
+  df = 'def2-svp-jkfit'
+  name = 'json_results'
 )
 print(
   results = true
