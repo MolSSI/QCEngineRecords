@@ -49,7 +49,10 @@
     "scf_total_energy": -74.9646625166939,
     "ccsd_prt_pr_correlation_energy": -0.0550552030560323,
     "ccsd_prt_pr_total_energy": -75.0197177197499,
-    "ccsd_prt_pr_dipole_moment": [0.0, 0.0, 0.606516899290546]
+    "ccsd_prt_pr_dipole_moment": [0.0, 0.0, 0.606516899290546],
+    "calcinfo_nalpha": 5,
+    "calcinfo_nbeta": 5,
+    "calcinfo_nbasis": 7
   },
   "error": null
 }

@@ -48,7 +48,10 @@
     "ccsd_correlation_energy": -0.0549792917918461,
     "ccsd_total_energy": -75.0196418084857,
     "ccsd_prt_pr_correlation_energy": -0.0550552030560323,
-    "ccsd_prt_pr_total_energy": -75.0197177197499
+    "ccsd_prt_pr_total_energy": -75.0197177197499,
+    "calcinfo_nalpha": 5,
+    "calcinfo_nbeta": 5,
+    "calcinfo_nbasis": 7
   },
   "error": null
 }

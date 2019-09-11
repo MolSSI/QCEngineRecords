@@ -29,7 +29,10 @@
   "properties": {
     "nuclear_repulsion_energy": 8.80146205625184,
     "scf_dipole_moment": [0.0, 0.0, 0.65662910269302],
-    "scf_total_energy": -74.9646625166939
+    "scf_total_energy": -74.9646625166939,
+    "calcinfo_nalpha": 5,
+    "calcinfo_nbeta": 5,
+    "calcinfo_nbasis": 7
   },
   "error": null
 }

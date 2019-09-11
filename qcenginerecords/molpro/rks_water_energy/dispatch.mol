@@ -16,7 +16,4 @@ basis={
 default,sto-3g
 }
 
-{RHF}
-{CCSD(T)}
-
-{force}
+{RKS,B3LYP}
