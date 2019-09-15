@@ -9,6 +9,7 @@ gradient(
     spin = 0.0
     df = 'def2-svp-jkfit'
   )
+  name = 'json_results'
 )
 print(
   results = true
