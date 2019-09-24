@@ -69,7 +69,9 @@ INFO["molpro"] = build_test_info("molpro", {
 # Entos
 INFO["entos"] = build_test_info("entos", {
     "dispatch.in",
-    "dispatch.out"
+    "dispatch.out",
+    "geometry.xyz",
+    "results.json"
 })
 
 INFO["terachem"] = build_test_info("terachem", {
