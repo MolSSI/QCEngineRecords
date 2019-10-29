@@ -84,3 +84,11 @@ INFO["dftd3"] = build_test_info(
     "dftd3", {
         "stdout",
     }, optional_files={"dftd3_gradient"})
+
+INFO["turbomole"] = build_test_info(
+    "turbomole", {
+        #"control",
+        #"coord",
+        "stdout",
+    }, optional_files={"gradient"},
+)
