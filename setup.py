@@ -34,6 +34,8 @@ setup(
     # url='http://www.my_package.com',  # Website
     install_requires=[
         "pydantic >= 0.20"
+        'msgpack >=0.6.1',
+        'qcelemental >=0.11.0',
     ],              # Required packages, pulls from pip if needed; do not use for Conda deployment
     # platforms=['Linux',
     #            'Mac OS-X',
