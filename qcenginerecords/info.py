@@ -1,4 +1,5 @@
 import os
+import qcelemental as qcel
 from typing import Dict, List, Set
 from pydantic import BaseModel
 
@@ -24,8 +25,12 @@ class ProgramTests(BaseModel):
 
         ret = {}
         for fn in self.test_cases[test]:
-            with open(os.path.join(self.base_folder, test, fn), 'r') as handle:
-                ret[fn] = handle.read()
+            with open(os.path.join(self.base_folder, test, fn), 'rb') as handle:
+                data = handle.read()
+                if "msgpack" in fn:
+                    ret[fn] = data
+                else:
+                    ret[fn] = data.decode()
 
         return ret
 
@@ -50,12 +55,11 @@ def build_test_info(program, required_files, optional_files=None):
     tests = find_tests(path)
     required_files = required_files | {"input.json", "output.json"}
 
-    ret = ProgramTests(
-        program=program,
-        base_folder=path,
-        required_files=required_files,
-        optional_files=optional_files,
-        test_cases=tests)
+    ret = ProgramTests(program=program,
+                       base_folder=path,
+                       required_files=required_files,
+                       optional_files=optional_files,
+                       test_cases=tests)
     return ret
 
 
@@ -67,12 +71,7 @@ INFO["molpro"] = build_test_info("molpro", {
 })
 
 # Entos
-INFO["entos"] = build_test_info("entos", {
-    "dispatch.in",
-    "dispatch.out",
-    "geometry.xyz",
-    "results.json"
-})
+INFO["entos"] = build_test_info("entos", {"dispatch.in", "dispatch.out", "geometry.xyz", "results.json"})
 
 INFO["terachem"] = build_test_info("terachem", {
     "tc.in",
@@ -80,15 +79,21 @@ INFO["terachem"] = build_test_info("terachem", {
     "geometry.xyz",
 })
 
-INFO["dftd3"] = build_test_info(
-    "dftd3", {
-        "stdout",
-    }, optional_files={"dftd3_gradient"})
+INFO["dftd3"] = build_test_info("dftd3", {
+    "stdout",
+}, optional_files={"dftd3_gradient"})
 
 INFO["turbomole"] = build_test_info(
-    "turbomole", {
+    "turbomole",
+    {
         #"control",
         #"coord",
         "stdout",
-    }, optional_files={"gradient"},
+    },
+    optional_files={"gradient"},
 )
+
+INFO["qchem"] = build_test_info("qchem", {
+    "infiles.msgpack",
+    "outfiles.msgpack",
+})
