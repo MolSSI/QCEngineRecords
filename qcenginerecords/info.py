@@ -1,4 +1,5 @@
 import os
+import qcelemental as qcel
 from typing import Dict, List, Set
 from pydantic import BaseModel
 
@@ -24,8 +25,14 @@ class ProgramTests(BaseModel):
 
         ret = {}
         for fn in self.test_cases[test]:
-            with open(os.path.join(self.base_folder, test, fn), 'r') as handle:
-                ret[fn] = handle.read()
+            with open(os.path.join(self.base_folder, test, fn), 'rb') as handle:
+                data = handle.read()
+                if fn.endswith('msgpack') or fn.endswith('msgpack-ext'):
+                    ret[fn] = qcel.util.deserialize(data, 'msgpack-ext')
+                elif fn.endswith('json') or fn.endswith('json-ext'):
+                    ret[fn] = qcel.util.deserialize(data, 'json-ext')
+                else:
+                    ret[fn] = handle.read().decode()
 
         return ret
 
@@ -87,6 +94,14 @@ INFO["dftd3"] = build_test_info(
 
 INFO["turbomole"] = build_test_info(
     "turbomole", {
+        #"control",
+        #"coord",
+        "stdout",
+    }, optional_files={"gradient"},
+)
+
+INFO["qchem"] = build_test_info(
+    "qchem", {
         #"control",
         #"coord",
         "stdout",
