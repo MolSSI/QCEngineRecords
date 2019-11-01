@@ -25,25 +25,25 @@ for driver in drivers:
         "model": model,
         "driver": driver,
     }
-
-    with open(os.path.join(folder_name, "input.msgpack"), "wb") as handle:
-        handle.write(serialize(input_model, 'msgpack-ext'))
-
     input_model = qcel.models.ResultInput(**input_model)
 
+    with open(os.path.join(folder_name, "input.json"), "w") as handle:
+        handle.write(serialize(input_model, 'json'))
+
+
+    # Save generated infiles
     prog = qcng.get_program(program)
-
     inputs = prog.build_input(input_model, config)
-
     with open(os.path.join(folder_name, "infiles.msgpack"), "wb") as handle:
         handle.write(serialize(inputs["infiles"], 'msgpack-ext'))
 
+    # Save outfiles
     ret = prog.execute(inputs)
-    result = prog.parse_output(ret[1]["outfiles"], input_model)
-
     with open(os.path.join(folder_name, "outfiles.msgpack"), "wb") as handle:
         handle.write(serialize(ret[1]["outfiles"], 'msgpack-ext'))
 
-    with open(os.path.join(folder_name, "output.msgpack"), "wb") as handle:
-        handle.write(serialize(model, 'msgpack-ext'))
+    # Save result
+    result = prog.parse_output(ret[1]["outfiles"], input_model)
+    with open(os.path.join(folder_name, "output.json"), "w") as handle:
+        handle.write(serialize(result, 'json'))
 

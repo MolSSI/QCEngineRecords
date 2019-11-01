@@ -33,4 +33,4 @@ def test_validate_test_case(info, test_case):
     qcel.models.ResultInput.parse_file(filenames["input.json"])
 
     # Ensure the `output.json` is valid
-    # qcel.models.Result.parse_file(filenames["output.json"])
+    qcel.models.Result.parse_file(filenames["output.json"])

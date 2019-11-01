@@ -1,6 +1,6 @@
 { "driver": "gradient",
   "error": null,
-  "extra": { "info": { "dashlevel": "d3zero",
+  "extras": { "info": { "dashlevel": "d3zero",
                        "dashparams": { "alpha6": 14.0,
                                        "s6": 1.0,
                                        "s8": 1.703,
