@@ -27,12 +27,10 @@ class ProgramTests(BaseModel):
         for fn in self.test_cases[test]:
             with open(os.path.join(self.base_folder, test, fn), 'rb') as handle:
                 data = handle.read()
-                if fn.endswith('msgpack') or fn.endswith('msgpack-ext'):
-                    ret[fn] = qcel.util.deserialize(data, 'msgpack-ext')
-                elif fn.endswith('json') or fn.endswith('json-ext'):
-                    ret[fn] = qcel.util.deserialize(data, 'json-ext')
+                if "msgpack" in fn:
+                    ret[fn] = data
                 else:
-                    ret[fn] = handle.read().decode()
+                    ret[fn] = data.decode()
 
         return ret
 
