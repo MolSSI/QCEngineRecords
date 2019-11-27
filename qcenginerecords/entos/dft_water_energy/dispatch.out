@@ -1,0 +1,81 @@
+
+==================================================================================
+          _____________ ________ _______________ ________     _________  
+         / ___________// ______ \\_____   _____// ______ \   / ________) 
+        / /_________  / /      \ \     | |     / /      \ \ | (_______   
+       |  __________|| |        | |    | |    | |        | | \________ \ 
+        \ \_________ | |        | |    | |     \ \______/ /___________) |
+         \__________||_|        |_|    |_|      \________//____________/ 
+
+==================================================================================
+
+ Git hash:   91ab665d288f78b4a325b505d787ebd82d48dcf0
+ Git date:   Tue, 26 Nov 2019 15:24:40 +0000
+ Compiler:   AppleClang 11.0.0.11000033
+ Build type: Release
+ Version:    0.7.1
+
+ Start time: Tue Nov 26 16:59:00 2019
+
+ Data directory: /Users/sebastianlee/Documents/EntosDev/entos_master/data
+ Number of cores: 1
+
+ --------------------------------------------------------------------------------
+                                  command: dft
+ --------------------------------------------------------------------------------
+
+ AO basis set:                        def2-svp                                                      
+ Number of AO basis functions:       24
+
+ Number of alpha electrons:           5
+ Number of beta electrons:            5
+ Number of unpaired electrons:        0
+ Spin:                                0
+
+ Theory:                              DFT                                                           
+ Exchange-correlation functional:     LDA                                                           
+ Method for Coulomb:                  incore_df                                                     
+ Number of grid points:           11320
+ Using density-fitting approximations
+ DF basis set:                        def2-svp-jkfit                                                
+ Number of DF basis functions:      113
+ Schwarz screening threshold:         1.00e-10
+ Coulomb fitting method:              Cholesky                                                      
+ Method for AO orthogonalization:     symmetric                                                     
+ Threshold for linear dependence:     1.00e-07
+
+ -----------------------
+ Running restricted SCF
+ -----------------------
+ Max number of iterations:          128
+ Conv. threshold (gradient):          1.00e-05
+ Conv. threshold (energy):            1.00e-06
+ Initial guess:                       SAD                                                           
+ Interpolation scheme:                adiis+cdiis                                                   
+
+ ---------------------------------------------------------------
+                  energy        change          grad        time
+ ---------------------------------------------------------------
+   0       -75.778039849                    4.57e+00        0.01
+   1       -75.708082541      7.00e-02      9.31e-01        0.01
+   2       -75.485657226      2.22e-01      1.73e+00        0.01
+   3       -75.778684867     -2.93e-01      4.12e-01        0.01
+   4       -75.786895655     -8.21e-03      2.76e-01        0.01
+   5       -75.794082592     -7.19e-03      5.96e-02        0.01
+   6       -75.793398204      6.84e-04      1.02e-01        0.01
+   7       -75.794454037     -1.06e-03      1.19e-04        0.01
+   8       -75.794454039     -1.49e-09      1.07e-05        0.01
+   9       -75.794454039     -1.05e-11      9.10e-08        0.01
+
+ SCF converged in 9 iterations.
+
+ Molecular Dipole:                  -0.000000   -0.000000    0.805066
+ TOTAL ENERGY:                      -75.794454039
+ Saving results in set 'json_results'
+
+ --------------------------------------------------------------------------------
+
+ End time:           Tue Nov 26 16:59:00 2019
+ Total time elapsed: 0.18 s
+
+==================================================================================
