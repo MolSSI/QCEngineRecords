@@ -1,0 +1,239 @@
+
+==================================================================================
+          _____________ ________ _______________ ________     _________  
+         / ___________// ______ \\_____   _____// ______ \   / ________) 
+        / /_________  / /      \ \     | |     / /      \ \ | (_______   
+       |  __________|| |        | |    | |    | |        | | \________ \ 
+        \ \_________ | |        | |    | |     \ \______/ /___________) |
+         \__________||_|        |_|    |_|      \________//____________/ 
+
+==================================================================================
+
+ Git hash:   91ab665d288f78b4a325b505d787ebd82d48dcf0
+ Git date:   Tue, 26 Nov 2019 15:24:40 +0000
+ Compiler:   AppleClang 10.0.1.10010046
+ Build type: Release
+ Version:    0.7.1
+
+ Start time: Fri Nov 29 15:25:19 2019
+
+ Data directory: /Users/matt/code/entos/latest/data
+ Number of cores: 1
+
+ --------------------------------------------------------------------------------
+                                  command: dft
+ --------------------------------------------------------------------------------
+
+ AO basis set:                        def2-svp                                                      
+ Number of AO basis functions:       24
+
+ Number of alpha electrons:           5
+ Number of beta electrons:            4
+ Number of unpaired electrons:        1
+ Spin:                                1
+
+ Theory:                              DFT                                                           
+ Exchange-correlation functional:     PBE                                                           
+ Method for Coulomb:                  incore_df                                                     
+ Number of grid points:           11320
+ Using density-fitting approximations
+ DF basis set:                        def2-svp-jfit                                                 
+ Number of DF basis functions:       71
+ Schwarz screening threshold:         1.00e-10
+ Coulomb fitting method:              Cholesky                                                      
+ Method for AO orthogonalization:     symmetric                                                     
+ Threshold for linear dependence:     1.00e-07
+
+ -------------------------
+ Running unrestricted SCF
+ -------------------------
+ Max number of iterations:          128
+ Conv. threshold (gradient):          1.00e-05
+ Conv. threshold (energy):            1.00e-06
+ Initial guess:                       SAD                                                           
+ Interpolation scheme:                adiis+cdiis                                                   
+
+ ---------------------------------------------------------------
+                  energy        change          grad        time
+ ---------------------------------------------------------------
+   0       -76.246493333                    2.25e+00        0.02
+   1       -75.812655689      4.34e-01      1.46e-01        0.01
+   2       -75.818813332     -6.16e-03      1.11e-01        0.01
+   3       -75.818672069      1.41e-04      1.07e-01        0.01
+   4       -75.822984099     -4.31e-03      9.16e-03        0.01
+   5       -75.822988143     -4.04e-06      8.74e-03        0.01
+   6       -75.823009103     -2.10e-05      2.01e-04        0.01
+   7       -75.823009117     -1.39e-08      2.01e-05        0.01
+   8       -75.823009117     -1.35e-10      4.05e-07        0.01
+
+ SCF converged in 8 iterations.
+
+ Molecular Dipole:                  -0.000000   -0.000000    0.994199
+ TOTAL ENERGY:                      -75.823009117
+ Saving results in set 'json_results'
+
+ --------------------------------------------------------------------------------
+                                 command: print
+ --------------------------------------------------------------------------------
+
+ All stored results
+ ------------------
+
+ json_results:
+   energy:                          -75.8230091172
+   converged:                         true                                                          
+   n_iter:                            8
+   ao_basis:                          basis                                                         
+   structure:                         atoms                                                         
+   multiplicity:                      2.0000000000
+   n_channels:                        2
+   homo:                             -0.7676025386
+   lumo:                             -0.6634879099
+   density_alpha:                     matrix                                                        
+   density_beta:                      matrix                                                        
+   orbitals_alpha:                    matrix                                                        
+   orbitals_beta:                     matrix                                                        
+   eigenvalues_alpha:                 vector                                                        
+   eigenvalues_beta:                  vector                                                        
+   occupations_alpha:                 vector                                                        
+   occupations_beta:                  vector                                                        
+   fock_alpha:                        matrix                                                        
+   fock_beta:                         matrix                                                        
+
+ json_results.scf_iterations:
+
+ json_results.scf_iterations.iteration_0:
+   iteration:                         0
+   energy:                          -76.2464933330
+   norm_orbital_gradient:             2.2482946487
+
+ json_results.scf_iterations.iteration_1:
+   iteration:                         1
+   energy:                          -75.8126556887
+   energy_change:                     0.4338376443
+   norm_orbital_gradient:             0.1456220145
+
+ json_results.scf_iterations.iteration_2:
+   iteration:                         2
+   energy:                          -75.8188133320
+   energy_change:                    -0.0061576433
+   norm_orbital_gradient:             0.1105466478
+
+ json_results.scf_iterations.iteration_3:
+   iteration:                         3
+   energy:                          -75.8186720686
+   energy_change:                     0.0001412635
+   norm_orbital_gradient:             0.1066013484
+
+ json_results.scf_iterations.iteration_4:
+   iteration:                         4
+   energy:                          -75.8229840990
+   energy_change:                    -0.0043120305
+   norm_orbital_gradient:             0.0091646540
+
+ json_results.scf_iterations.iteration_5:
+   iteration:                         5
+   energy:                          -75.8229881433
+   energy_change:                    -0.0000040443
+   norm_orbital_gradient:             0.0087420384
+
+ json_results.scf_iterations.iteration_6:
+   iteration:                         6
+   energy:                          -75.8230091032
+   energy_change:                    -0.0000209599
+   norm_orbital_gradient:             0.0002009881
+
+ json_results.scf_iterations.iteration_7:
+   iteration:                         7
+   energy:                          -75.8230091171
+   energy_change:                    -0.0000000139
+   norm_orbital_gradient:             0.0000200559
+
+ json_results.scf_iterations.iteration_8:
+   iteration:                         8
+   energy:                          -75.8230091172
+   energy_change:                    -0.0000000001
+   norm_orbital_gradient:             0.0000004048
+
+ previous:
+   energy:                          -75.8230091172
+   converged:                         true                                                          
+   n_iter:                            8
+   ao_basis:                          basis                                                         
+   structure:                         atoms                                                         
+   multiplicity:                      2.0000000000
+   n_channels:                        2
+   homo:                             -0.7676025386
+   lumo:                             -0.6634879099
+   density_alpha:                     matrix                                                        
+   density_beta:                      matrix                                                        
+   orbitals_alpha:                    matrix                                                        
+   orbitals_beta:                     matrix                                                        
+   eigenvalues_alpha:                 vector                                                        
+   eigenvalues_beta:                  vector                                                        
+   occupations_alpha:                 vector                                                        
+   occupations_beta:                  vector                                                        
+   fock_alpha:                        matrix                                                        
+   fock_beta:                         matrix                                                        
+
+ previous.scf_iterations:
+
+ previous.scf_iterations.iteration_0:
+   iteration:                         0
+   energy:                          -76.2464933330
+   norm_orbital_gradient:             2.2482946487
+
+ previous.scf_iterations.iteration_1:
+   iteration:                         1
+   energy:                          -75.8126556887
+   energy_change:                     0.4338376443
+   norm_orbital_gradient:             0.1456220145
+
+ previous.scf_iterations.iteration_2:
+   iteration:                         2
+   energy:                          -75.8188133320
+   energy_change:                    -0.0061576433
+   norm_orbital_gradient:             0.1105466478
+
+ previous.scf_iterations.iteration_3:
+   iteration:                         3
+   energy:                          -75.8186720686
+   energy_change:                     0.0001412635
+   norm_orbital_gradient:             0.1066013484
+
+ previous.scf_iterations.iteration_4:
+   iteration:                         4
+   energy:                          -75.8229840990
+   energy_change:                    -0.0043120305
+   norm_orbital_gradient:             0.0091646540
+
+ previous.scf_iterations.iteration_5:
+   iteration:                         5
+   energy:                          -75.8229881433
+   energy_change:                    -0.0000040443
+   norm_orbital_gradient:             0.0087420384
+
+ previous.scf_iterations.iteration_6:
+   iteration:                         6
+   energy:                          -75.8230091032
+   energy_change:                    -0.0000209599
+   norm_orbital_gradient:             0.0002009881
+
+ previous.scf_iterations.iteration_7:
+   iteration:                         7
+   energy:                          -75.8230091171
+   energy_change:                    -0.0000000139
+   norm_orbital_gradient:             0.0000200559
+
+ previous.scf_iterations.iteration_8:
+   iteration:                         8
+   energy:                          -75.8230091172
+   energy_change:                    -0.0000000001
+   norm_orbital_gradient:             0.0000004048
+
+ --------------------------------------------------------------------------------
+
+ End time:           Fri Nov 29 15:25:20 2019
+ Total time elapsed: 0.25 s
+
+==================================================================================

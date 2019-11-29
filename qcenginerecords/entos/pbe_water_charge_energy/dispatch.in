@@ -1,0 +1,14 @@
+dft(
+  structure(
+    file = 'geometry.xyz'
+  )
+  xc = PBE
+  ao = 'def2-svp'
+  charge = 1.0
+  spin = 1.0
+  df = 'def2-svp-jfit'
+  name = 'json_results'
+)
+print(
+  results = true
+)

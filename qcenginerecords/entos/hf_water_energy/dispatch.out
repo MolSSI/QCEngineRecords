@@ -9,15 +9,15 @@
 
 ==================================================================================
 
- Git hash:   a25ddec9dfb157b3234fe8ca29864cbc50488d5e
- Git date:   Tue, 10 Sep 2019 18:47:15 +0000
- Compiler:   AppleClang 10.0.0.10001145
+ Git hash:   91ab665d288f78b4a325b505d787ebd82d48dcf0
+ Git date:   Tue, 26 Nov 2019 15:24:40 +0000
+ Compiler:   AppleClang 10.0.1.10010046
  Build type: Release
- Version:    0.6
+ Version:    0.7.1
 
- Start time: Sat Sep 14 19:11:37 2019
+ Start time: Fri Nov 29 15:13:33 2019
 
- Data directory: /Users/sebastianlee/Documents/EntosDev/entos_master/data
+ Data directory: /Users/matt/code/entos/latest/data
  Number of cores: 1
 
  --------------------------------------------------------------------------------
@@ -33,11 +33,14 @@
  Spin:                                0
 
  Theory:                              HF                                                            
+ Method for Coulomb:                  incore_df                                                     
+ Method for exact exchange:           pre_transformed_df                                            
  Using density-fitting approximations
  DF basis set:                        def2-svp-jkfit                                                
  Number of DF basis functions:      113
  Schwarz screening threshold:         1.00e-10
  Coulomb fitting method:              Cholesky                                                      
+ Pre-transform 3-index DF integrals.
  Method for AO orthogonalization:     symmetric                                                     
  Threshold for linear dependence:     1.00e-07
 
@@ -53,21 +56,21 @@
  ---------------------------------------------------------------
                   energy        change          grad        time
  ---------------------------------------------------------------
-   0       -75.765175141                    4.76e+00        0.00
+   0       -75.765175143                    4.76e+00        0.00
    1       -75.910655769     -1.45e-01      6.79e-01        0.00
-   2       -75.943272707     -3.26e-02      3.60e-01        0.00
+   2       -75.943272708     -3.26e-02      3.60e-01        0.00
    3       -75.951101207     -7.83e-03      1.99e-01        0.00
    4       -75.954700702     -3.60e-03      7.73e-02        0.00
    5       -75.955094095     -3.93e-04      4.50e-02        0.00
    6       -75.955313259     -2.19e-04      2.84e-04        0.00
    7       -75.955313284     -2.49e-08      3.92e-05        0.00
    8       -75.955313284     -3.60e-10      1.48e-05        0.00
-   9       -75.955313284     -3.99e-11      1.63e-06        0.00
+   9       -75.955313285     -3.99e-11      1.63e-06        0.00
 
  SCF converged in 9 iterations.
 
- Molecular Dipole:                   0.000000   -0.000000    0.856345
- TOTAL ENERGY:                      -75.955313284
+ Molecular Dipole:                   0.000000    0.000000    0.856345
+ TOTAL ENERGY:                      -75.955313285
  Saving results in set 'json_results'
 
  --------------------------------------------------------------------------------
@@ -78,14 +81,15 @@
  ------------------
 
  json_results:
-   energy:                          -75.9553132843
+   energy:                          -75.9553132845
    converged:                         true                                                          
    n_iter:                            9
    ao_basis:                          basis                                                         
    structure:                         atoms                                                         
+   multiplicity:                      1.0000000000
    n_channels:                        1
-   homo:                             -0.4950881450
-   lumo:                              0.1693336887
+   homo:                             -0.4950881451
+   lumo:                              0.1693336888
    density:                           matrix                                                        
    orbitals:                          matrix                                                        
    eigenvalues:                       vector                                                        
@@ -96,72 +100,73 @@
 
  json_results.scf_iterations.iteration_0:
    iteration:                         0
-   energy:                          -75.7651751413
-   norm_orbital_gradient:             4.7572018106
+   energy:                          -75.7651751428
+   norm_orbital_gradient:             4.7572018191
 
  json_results.scf_iterations.iteration_1:
    iteration:                         1
-   energy:                          -75.9106557691
-   energy_change:                    -0.1454806278
-   norm_orbital_gradient:             0.6788153055
+   energy:                          -75.9106557693
+   energy_change:                    -0.1454806265
+   norm_orbital_gradient:             0.6788153051
 
  json_results.scf_iterations.iteration_2:
    iteration:                         2
-   energy:                          -75.9432727074
-   energy_change:                    -0.0326169383
-   norm_orbital_gradient:             0.3602154701
+   energy:                          -75.9432727076
+   energy_change:                    -0.0326169382
+   norm_orbital_gradient:             0.3602154698
 
  json_results.scf_iterations.iteration_3:
    iteration:                         3
-   energy:                          -75.9511012066
+   energy:                          -75.9511012068
    energy_change:                    -0.0078284993
-   norm_orbital_gradient:             0.1989144125
+   norm_orbital_gradient:             0.1989144121
 
  json_results.scf_iterations.iteration_4:
    iteration:                         4
-   energy:                          -75.9547007021
+   energy:                          -75.9547007023
    energy_change:                    -0.0035994955
-   norm_orbital_gradient:             0.0772889146
+   norm_orbital_gradient:             0.0772889144
 
  json_results.scf_iterations.iteration_5:
    iteration:                         5
-   energy:                          -75.9550940948
+   energy:                          -75.9550940950
    energy_change:                    -0.0003933927
-   norm_orbital_gradient:             0.0450020483
+   norm_orbital_gradient:             0.0450020482
 
  json_results.scf_iterations.iteration_6:
    iteration:                         6
-   energy:                          -75.9553132591
+   energy:                          -75.9553132592
    energy_change:                    -0.0002191643
    norm_orbital_gradient:             0.0002844423
 
  json_results.scf_iterations.iteration_7:
    iteration:                         7
-   energy:                          -75.9553132839
+   energy:                          -75.9553132841
    energy_change:                    -0.0000000249
    norm_orbital_gradient:             0.0000392088
 
  json_results.scf_iterations.iteration_8:
    iteration:                         8
-   energy:                          -75.9553132843
+   energy:                          -75.9553132845
    energy_change:                    -0.0000000004
    norm_orbital_gradient:             0.0000147768
 
  json_results.scf_iterations.iteration_9:
    iteration:                         9
-   energy:                          -75.9553132843
+   energy:                          -75.9553132845
    energy_change:                    -0.0000000000
    norm_orbital_gradient:             0.0000016252
 
  previous:
-   energy:                          -75.9553132843
+   energy:                          -75.9553132845
    converged:                         true                                                          
    n_iter:                            9
    ao_basis:                          basis                                                         
    structure:                         atoms                                                         
+   multiplicity:                      1.0000000000
    n_channels:                        1
-   homo:                             -0.4950881450
-   lumo:                              0.1693336887
+   homo:                             -0.4950881451
+   lumo:                              0.1693336888
    density:                           matrix                                                        
    orbitals:                          matrix                                                        
    eigenvalues:                       vector                                                        
@@ -172,66 +177,66 @@
 
  previous.scf_iterations.iteration_0:
    iteration:                         0
-   energy:                          -75.7651751413
-   norm_orbital_gradient:             4.7572018106
+   energy:                          -75.7651751428
+   norm_orbital_gradient:             4.7572018191
 
  previous.scf_iterations.iteration_1:
    iteration:                         1
-   energy:                          -75.9106557691
-   energy_change:                    -0.1454806278
-   norm_orbital_gradient:             0.6788153055
+   energy:                          -75.9106557693
+   energy_change:                    -0.1454806265
+   norm_orbital_gradient:             0.6788153051
 
  previous.scf_iterations.iteration_2:
    iteration:                         2
-   energy:                          -75.9432727074
-   energy_change:                    -0.0326169383
-   norm_orbital_gradient:             0.3602154701
+   energy:                          -75.9432727076
+   energy_change:                    -0.0326169382
+   norm_orbital_gradient:             0.3602154698
 
  previous.scf_iterations.iteration_3:
    iteration:                         3
-   energy:                          -75.9511012066
+   energy:                          -75.9511012068
    energy_change:                    -0.0078284993
-   norm_orbital_gradient:             0.1989144125
+   norm_orbital_gradient:             0.1989144121
 
  previous.scf_iterations.iteration_4:
    iteration:                         4
-   energy:                          -75.9547007021
+   energy:                          -75.9547007023
    energy_change:                    -0.0035994955
-   norm_orbital_gradient:             0.0772889146
+   norm_orbital_gradient:             0.0772889144
 
  previous.scf_iterations.iteration_5:
    iteration:                         5
-   energy:                          -75.9550940948
+   energy:                          -75.9550940950
    energy_change:                    -0.0003933927
-   norm_orbital_gradient:             0.0450020483
+   norm_orbital_gradient:             0.0450020482
 
  previous.scf_iterations.iteration_6:
    iteration:                         6
-   energy:                          -75.9553132591
+   energy:                          -75.9553132592
    energy_change:                    -0.0002191643
    norm_orbital_gradient:             0.0002844423
 
  previous.scf_iterations.iteration_7:
    iteration:                         7
-   energy:                          -75.9553132839
+   energy:                          -75.9553132841
    energy_change:                    -0.0000000249
    norm_orbital_gradient:             0.0000392088
 
  previous.scf_iterations.iteration_8:
    iteration:                         8
-   energy:                          -75.9553132843
+   energy:                          -75.9553132845
    energy_change:                    -0.0000000004
    norm_orbital_gradient:             0.0000147768
 
  previous.scf_iterations.iteration_9:
    iteration:                         9
-   energy:                          -75.9553132843
+   energy:                          -75.9553132845
    energy_change:                    -0.0000000000
    norm_orbital_gradient:             0.0000016252
 
  --------------------------------------------------------------------------------
 
- End time:           Sat Sep 14 19:11:37 2019
- Total time elapsed: 0.085 s
+ End time:           Fri Nov 29 15:13:33 2019
+ Total time elapsed: 0.076 s
 
 ==================================================================================
