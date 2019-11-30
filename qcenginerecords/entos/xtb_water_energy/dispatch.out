@@ -11,13 +11,13 @@
 
  Git hash:   91ab665d288f78b4a325b505d787ebd82d48dcf0
  Git date:   Tue, 26 Nov 2019 15:24:40 +0000
- Compiler:   AppleClang 10.0.1.10010046
+ Compiler:   AppleClang 11.0.0.11000033
  Build type: Release
  Version:    0.7.1
 
- Start time: Fri Nov 29 19:16:36 2019
+ Start time: Sat Nov 30 10:54:00 2019
 
- Data directory: /Users/matt/code/entos/latest/data
+ Data directory: /Users/sebastianlee/Documents/EntosDev/entos_master/data
  Number of cores: 1
 
  --------------------------------------------------------------------------------
@@ -54,39 +54,8 @@
  Saving results in set 'json_results'
 
  --------------------------------------------------------------------------------
-                                 command: print
- --------------------------------------------------------------------------------
 
- All stored results
- ------------------
-
- json_results:
-   n_channels:                        1
-   density:                           matrix                                                        
-   orbitals:                          matrix                                                        
-   eigenvalues:                       vector                                                        
-   energy:                           -5.7659905207
-   converged:                         true                                                          
-   n_iter:                            7
-   ao_basis:                          basis                                                         
-   structure:                         atoms                                                         
-   occupations:                       vector                                                        
-
- previous:
-   n_channels:                        1
-   density:                           matrix                                                        
-   orbitals:                          matrix                                                        
-   eigenvalues:                       vector                                                        
-   energy:                           -5.7659905207
-   converged:                         true                                                          
-   n_iter:                            7
-   ao_basis:                          basis                                                         
-   structure:                         atoms                                                         
-   occupations:                       vector                                                        
-
- --------------------------------------------------------------------------------
-
- End time:           Fri Nov 29 19:16:36 2019
- Total time elapsed: 0.035 s
+ End time:           Sat Nov 30 10:54:00 2019
+ Total time elapsed: 0.038 s
 
 ==================================================================================
