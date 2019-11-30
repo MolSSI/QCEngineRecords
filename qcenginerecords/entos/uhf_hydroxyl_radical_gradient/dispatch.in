@@ -1,0 +1,13 @@
+json_results :=
+gradient(
+  structure(
+    file = 'geometry.xyz'
+  )
+  hf(
+    ao = 'def2-svp'
+    charge = 0.0
+    spin = 1.0
+    df = 'def2-svp-jkfit'
+    ansatz = 'u'
+  )
+)
