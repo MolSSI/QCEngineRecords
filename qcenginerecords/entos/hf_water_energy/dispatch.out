@@ -33,15 +33,15 @@
  Spin:                                0
 
  Theory:                              HF                                                            
- Method for Coulomb:                  incore_df                                                     
- Method for exact exchange:           pre_transformed_df                                            
+ Method for Coulomb:                  incore_df
+ Method for exact exchange:           pre_transformed_df
  Using density-fitting approximations
  DF basis set:                        def2-svp-jkfit                                                
  Number of DF basis functions:      113
  Schwarz screening threshold:         1.00e-10
  Coulomb fitting method:              Cholesky                                                      
  Pre-transform 3-index DF integrals.
- Method for AO orthogonalization:     symmetric                                                     
+ Method for AO orthogonalization:     symmetric
  Threshold for linear dependence:     1.00e-07
 
  -----------------------
