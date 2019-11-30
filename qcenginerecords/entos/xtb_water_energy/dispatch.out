@@ -1,0 +1,92 @@
+
+==================================================================================
+          _____________ ________ _______________ ________     _________  
+         / ___________// ______ \\_____   _____// ______ \   / ________) 
+        / /_________  / /      \ \     | |     / /      \ \ | (_______   
+       |  __________|| |        | |    | |    | |        | | \________ \ 
+        \ \_________ | |        | |    | |     \ \______/ /___________) |
+         \__________||_|        |_|    |_|      \________//____________/ 
+
+==================================================================================
+
+ Git hash:   91ab665d288f78b4a325b505d787ebd82d48dcf0
+ Git date:   Tue, 26 Nov 2019 15:24:40 +0000
+ Compiler:   AppleClang 10.0.1.10010046
+ Build type: Release
+ Version:    0.7.1
+
+ Start time: Fri Nov 29 19:16:36 2019
+
+ Data directory: /Users/matt/code/entos/latest/data
+ Number of cores: 1
+
+ --------------------------------------------------------------------------------
+                                  command: xtb
+ --------------------------------------------------------------------------------
+
+ XTB basis setup:                     reference basis                                               
+ D3BJ dispersion energy:             -0.000137686
+ Repulsive energy:                    0.025814369
+ Halogen bonding energy:              0.000000000
+ Max number of iterations:          128
+ Conv. threshold (gradient):          1.00e-05
+ Conv. threshold (energy):            1.00e-06
+ Interpolation scheme:                cdiis                                                         
+
+ ---------------------------------------------------------------
+                  energy        change          grad        time
+ ---------------------------------------------------------------
+   0        -5.135753726                    5.21e-01        0.00
+   1        -5.708369915     -5.73e-01      4.86e-01        0.00
+   2        -5.739023469     -3.07e-02      3.37e-01        0.00
+   3        -5.753865414     -1.48e-02      2.28e-01        0.00
+   4        -5.760677938     -6.81e-03      1.52e-01        0.00
+   5        -5.762821034     -2.14e-03      1.19e-01        0.00
+   6        -5.765990517     -3.17e-03      1.34e-04        0.00
+   7        -5.765990521     -4.05e-09      7.14e-08        0.00
+
+ SCF converged in 7 iterations.
+
+ Number of electrons:                 8.000000000
+ Temperature in kelvin (T):         300.000000000
+ Entropy contribution (ST):          -0.000000000
+ TOTAL ENERGY:                       -5.765990521
+ Saving results in set 'json_results'
+
+ --------------------------------------------------------------------------------
+                                 command: print
+ --------------------------------------------------------------------------------
+
+ All stored results
+ ------------------
+
+ json_results:
+   n_channels:                        1
+   density:                           matrix                                                        
+   orbitals:                          matrix                                                        
+   eigenvalues:                       vector                                                        
+   energy:                           -5.7659905207
+   converged:                         true                                                          
+   n_iter:                            7
+   ao_basis:                          basis                                                         
+   structure:                         atoms                                                         
+   occupations:                       vector                                                        
+
+ previous:
+   n_channels:                        1
+   density:                           matrix                                                        
+   orbitals:                          matrix                                                        
+   eigenvalues:                       vector                                                        
+   energy:                           -5.7659905207
+   converged:                         true                                                          
+   n_iter:                            7
+   ao_basis:                          basis                                                         
+   structure:                         atoms                                                         
+   occupations:                       vector                                                        
+
+ --------------------------------------------------------------------------------
+
+ End time:           Fri Nov 29 19:16:36 2019
+ Total time elapsed: 0.035 s
+
+==================================================================================

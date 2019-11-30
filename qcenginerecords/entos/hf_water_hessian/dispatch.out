@@ -15,10 +15,19 @@
  Build type: Release
  Version:    0.7.1
 
- Start time: Fri Nov 29 15:13:33 2019
+ Start time: Fri Nov 29 19:38:02 2019
 
  Data directory: /Users/matt/code/entos/latest/data
  Number of cores: 1
+
+ --------------------------------------------------------------------------------
+                                command: hessian
+ --------------------------------------------------------------------------------
+
+
+ ---------------------
+ semianalytic hessian
+ ---------------------
 
  --------------------------------------------------------------------------------
                                   command: dft
@@ -71,6 +80,32 @@
 
  Molecular Dipole:                   0.000000    0.000000    0.856345
  TOTAL ENERGY:                      -75.955313285
+ Use central differences
+ Step size:                           0.010000000
+
+ Vibrational frequencies (including translational and rotational modes)
+
+ mode      frequency / cm-1
+      1             0.02 i (imaginary)
+      2             0.02 i (imaginary)
+      3             0.01 i (imaginary)
+      4           877.84
+      5           884.69
+      6           898.93
+      7          1855.42
+      8          3421.61
+      9          3510.65
+
+ Project out translational and rotational motions 
+
+ Degrees of freedom for translational and rotational motions: 6
+
+ Vibrational frequencies
+
+ mode      frequency / cm-1
+      1          1855.42
+      2          3421.61
+      3          3510.64
  Saving results in set 'json_results'
 
  --------------------------------------------------------------------------------
@@ -95,6 +130,10 @@
    eigenvalues:                       vector                                                        
    occupations:                       vector                                                        
    fock:                              matrix                                                        
+   gradient:                          matrix                                                        
+   hessian:                           matrix                                                        
+   frequencies:                       vector                                                        
+   normal_modes:                      matrix                                                        
 
  json_results.scf_iterations:
 
@@ -172,6 +211,10 @@
    eigenvalues:                       vector                                                        
    occupations:                       vector                                                        
    fock:                              matrix                                                        
+   gradient:                          matrix                                                        
+   hessian:                           matrix                                                        
+   frequencies:                       vector                                                        
+   normal_modes:                      matrix                                                        
 
  previous.scf_iterations:
 
@@ -236,7 +279,7 @@
 
  --------------------------------------------------------------------------------
 
- End time:           Fri Nov 29 15:13:33 2019
- Total time elapsed: 0.076 s
+ End time:           Fri Nov 29 19:38:03 2019
+ Total time elapsed: 0.72 s
 
 ==================================================================================
