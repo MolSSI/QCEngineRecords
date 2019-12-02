@@ -15,7 +15,7 @@
  Build type: Release
  Version:    0.7.1
 
- Start time: Mon Dec  2 13:30:47 2019
+ Start time: Mon Dec  2 13:38:00 2019
 
  Data directory: /Users/sebastianlee/Documents/EntosDev/entos_master/data
  Number of cores: 1
@@ -30,28 +30,28 @@
  --------------------------------------------------------------------------------
 
  AO basis set:                        def2-svp                                                      
- Number of AO basis functions:       24
+ Number of AO basis functions:       19
 
  Number of alpha electrons:           5
- Number of beta electrons:            5
- Number of unpaired electrons:        0
- Spin:                                0
+ Number of beta electrons:            4
+ Number of unpaired electrons:        1
+ Spin:                                1
 
  Theory:                              HF                                                            
  Method for Coulomb:                  incore_df                                                     
  Method for exact exchange:           pre_transformed_df                                            
  Using density-fitting approximations
  DF basis set:                        def2-svp-jkfit                                                
- Number of DF basis functions:      113
+ Number of DF basis functions:       95
  Schwarz screening threshold:         1.00e-10
  Coulomb fitting method:              Cholesky                                                      
  Pre-transform 3-index DF integrals.
  Method for AO orthogonalization:     symmetric                                                     
  Threshold for linear dependence:     1.00e-07
 
- -----------------------
- Running restricted SCF
- -----------------------
+ -------------------------
+ Running unrestricted SCF
+ -------------------------
  Max number of iterations:          128
  Conv. threshold (gradient):          1.00e-05
  Conv. threshold (energy):            1.00e-06
@@ -61,26 +61,27 @@
  ---------------------------------------------------------------
                   energy        change          grad        time
  ---------------------------------------------------------------
-   0       -75.765175143                    4.76e+00        0.00
-   1       -75.910655769     -1.45e-01      6.79e-01        0.00
-   2       -75.943272708     -3.26e-02      3.60e-01        0.00
-   3       -75.951101207     -7.83e-03      1.99e-01        0.00
-   4       -75.954700702     -3.60e-03      7.73e-02        0.00
-   5       -75.955094095     -3.93e-04      4.50e-02        0.00
-   6       -75.955313259     -2.19e-04      2.84e-04        0.00
-   7       -75.955313284     -2.49e-08      3.92e-05        0.00
-   8       -75.955313284     -3.60e-10      1.48e-05        0.00
-   9       -75.955313285     -3.99e-11      1.63e-06        0.00
+   0       -74.953881031                    1.26e+00        0.00
+   1       -75.307413664     -3.54e-01      2.61e-01        0.00
+   2       -75.321948727     -1.45e-02      4.51e-02        0.00
+   3       -75.323083089     -1.13e-03      2.83e-02        0.00
+   4       -75.323324760     -2.42e-04      7.80e-03        0.00
+   5       -75.323382035     -5.73e-05      4.20e-03        0.00
+   6       -75.323401602     -1.96e-05      1.69e-03        0.00
+   7       -75.323405646     -4.04e-06      4.81e-04        0.00
+   8       -75.323405927     -2.81e-07      1.03e-04        0.00
+   9       -75.323405935     -8.10e-09      1.31e-05        0.00
+  10       -75.323405935     -1.64e-10      2.17e-06        0.00
 
- SCF converged in 9 iterations.
+ SCF converged in 10 iterations.
 
- Molecular Dipole:                  -0.000000   -0.000000    0.856345
- TOTAL ENERGY:                      -75.955313285
+ Molecular Dipole:                   0.000000   -0.585324    0.453206
+ TOTAL ENERGY:                      -75.323405935
  Saving results in set 'json_results'
 
  --------------------------------------------------------------------------------
 
- End time:           Mon Dec  2 13:30:47 2019
- Total time elapsed: 0.092 s
+ End time:           Mon Dec  2 13:38:00 2019
+ Total time elapsed: 0.075 s
 
 ==================================================================================

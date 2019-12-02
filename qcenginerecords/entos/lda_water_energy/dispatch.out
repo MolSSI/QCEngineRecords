@@ -15,7 +15,7 @@
  Build type: Release
  Version:    0.7.1
 
- Start time: Mon Dec  2 13:30:47 2019
+ Start time: Mon Dec  2 13:37:37 2019
 
  Data directory: /Users/sebastianlee/Documents/EntosDev/entos_master/data
  Number of cores: 1
@@ -26,7 +26,7 @@
 
 
  --------------------------------------------------------------------------------
-                                  command: hf
+                                  command: dft
  --------------------------------------------------------------------------------
 
  AO basis set:                        def2-svp                                                      
@@ -37,15 +37,15 @@
  Number of unpaired electrons:        0
  Spin:                                0
 
- Theory:                              HF                                                            
+ Theory:                              DFT                                                           
+ Exchange-correlation functional:     LDA                                                           
  Method for Coulomb:                  incore_df                                                     
- Method for exact exchange:           pre_transformed_df                                            
+ Number of grid points:           11320
  Using density-fitting approximations
  DF basis set:                        def2-svp-jkfit                                                
  Number of DF basis functions:      113
  Schwarz screening threshold:         1.00e-10
  Coulomb fitting method:              Cholesky                                                      
- Pre-transform 3-index DF integrals.
  Method for AO orthogonalization:     symmetric                                                     
  Threshold for linear dependence:     1.00e-07
 
@@ -61,26 +61,26 @@
  ---------------------------------------------------------------
                   energy        change          grad        time
  ---------------------------------------------------------------
-   0       -75.765175143                    4.76e+00        0.00
-   1       -75.910655769     -1.45e-01      6.79e-01        0.00
-   2       -75.943272708     -3.26e-02      3.60e-01        0.00
-   3       -75.951101207     -7.83e-03      1.99e-01        0.00
-   4       -75.954700702     -3.60e-03      7.73e-02        0.00
-   5       -75.955094095     -3.93e-04      4.50e-02        0.00
-   6       -75.955313259     -2.19e-04      2.84e-04        0.00
-   7       -75.955313284     -2.49e-08      3.92e-05        0.00
-   8       -75.955313284     -3.60e-10      1.48e-05        0.00
-   9       -75.955313285     -3.99e-11      1.63e-06        0.00
+   0       -75.778039849                    4.57e+00        0.01
+   1       -75.708082541      7.00e-02      9.31e-01        0.01
+   2       -75.485657226      2.22e-01      1.73e+00        0.01
+   3       -75.778684867     -2.93e-01      4.12e-01        0.01
+   4       -75.786895655     -8.21e-03      2.76e-01        0.01
+   5       -75.794082592     -7.19e-03      5.96e-02        0.01
+   6       -75.793398204      6.84e-04      1.02e-01        0.00
+   7       -75.794454037     -1.06e-03      1.19e-04        0.01
+   8       -75.794454039     -1.49e-09      1.07e-05        0.01
+   9       -75.794454039     -1.05e-11      9.10e-08        0.01
 
  SCF converged in 9 iterations.
 
- Molecular Dipole:                  -0.000000   -0.000000    0.856345
- TOTAL ENERGY:                      -75.955313285
+ Molecular Dipole:                  -0.000000   -0.000000    0.805066
+ TOTAL ENERGY:                      -75.794454039
  Saving results in set 'json_results'
 
  --------------------------------------------------------------------------------
 
- End time:           Mon Dec  2 13:30:47 2019
- Total time elapsed: 0.092 s
+ End time:           Mon Dec  2 13:37:37 2019
+ Total time elapsed: 0.17 s
 
 ==================================================================================

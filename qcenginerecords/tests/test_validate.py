@@ -5,8 +5,10 @@ import qcelemental as qcel
 
 
 def test_list_programs():
+    assert "dftd3" in qcer.list_programs()
     assert "molpro" in qcer.list_programs()
     assert "entos" in qcer.list_programs()
+    assert "qchem" in qcer.list_programs()
     assert "terachem" in qcer.list_programs()
     assert "turbomole" in qcer.list_programs()
 
@@ -30,7 +32,7 @@ def test_validate_test_case(info, test_case):
     assert filenames.keys() <= (info.required_files | info.optional_files), "Unknown files found."
 
     # Ensure the `input.json` is valid
-    qcel.models.ResultInput.parse_file(filenames["input.json"])
+    qcel.models.AtomicInput.parse_file(filenames["input.json"])
 
     # Ensure the `output.json` is valid
-    qcel.models.Result.parse_file(filenames["output.json"])
+    qcel.models.AtomicResult.parse_file(filenames["output.json"])

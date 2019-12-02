@@ -15,7 +15,7 @@
  Build type: Release
  Version:    0.7.1
 
- Start time: Mon Dec  2 13:37:27 2019
+ Start time: Mon Dec  2 13:37:41 2019
 
  Data directory: /Users/sebastianlee/Documents/EntosDev/entos_master/data
  Number of cores: 1
@@ -36,14 +36,14 @@
 
  Gradient (hartree/bohr):
                          X                   Y                   Z
- 1             0.000000000        -0.000000000        -0.063314381
- 2             0.000000000        -0.043915406         0.031657190
- 3            -0.000000000         0.043915406         0.031657190
+ 1             0.000000001         0.000000003        -0.022776960
+ 2            -0.000000000        -0.020543726         0.011388481
+ 3            -0.000000000         0.020543723         0.011388479
  Saving results in set 'json_results'
 
  --------------------------------------------------------------------------------
 
- End time:           Mon Dec  2 13:37:27 2019
- Total time elapsed: 0.095659 s
+ End time:           Mon Dec  2 13:37:41 2019
+ Total time elapsed: 0.194467 s
 
 ==================================================================================

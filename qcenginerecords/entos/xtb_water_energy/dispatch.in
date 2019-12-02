@@ -1,10 +1,8 @@
+entos_policy(version = '0.7.1')
+json_results :=
 xtb(
   structure(
     file = 'geometry.xyz'
   )
   charge = 0.0
-  name = 'json_results'
-)
-print(
-  results = true
 )

@@ -15,7 +15,7 @@
  Build type: Release
  Version:    0.7.1
 
- Start time: Mon Dec  2 13:37:27 2019
+ Start time: Mon Dec  2 13:38:32 2019
 
  Data directory: /Users/sebastianlee/Documents/EntosDev/entos_master/data
  Number of cores: 1
@@ -29,21 +29,11 @@
                                command: gradient
  --------------------------------------------------------------------------------
 
-
- --------------------
- Analytical gradient
- --------------------
-
- Gradient (hartree/bohr):
-                         X                   Y                   Z
- 1             0.000000000        -0.000000000        -0.063314381
- 2             0.000000000        -0.043915406         0.031657190
- 3            -0.000000000         0.043915406         0.031657190
  Saving results in set 'json_results'
 
  --------------------------------------------------------------------------------
 
- End time:           Mon Dec  2 13:37:27 2019
- Total time elapsed: 0.095659 s
+ End time:           Mon Dec  2 13:38:32 2019
+ Total time elapsed: 0.04143 s
 
 ==================================================================================

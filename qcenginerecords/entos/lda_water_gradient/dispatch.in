@@ -1,10 +1,11 @@
 entos_policy(version = '0.7.1')
 json_results :=
-hessian(
+gradient(
   structure(
     file = 'geometry.xyz'
   )
-  hf(
+  dft(
+    xc = 'LDA'
     ao = 'def2-svp'
     charge = 0.0
     spin = 0.0
