@@ -15,10 +15,15 @@
  Build type: Release
  Version:    0.7.1
 
- Start time: Tue Nov 26 12:00:30 2019
+ Start time: Mon Dec  2 13:30:47 2019
 
  Data directory: /Users/sebastianlee/Documents/EntosDev/entos_master/data
  Number of cores: 1
+
+ --------------------------------------------------------------------------------
+                             command: entos_policy
+ --------------------------------------------------------------------------------
+
 
  --------------------------------------------------------------------------------
                                   command: hf
@@ -33,15 +38,15 @@
  Spin:                                0
 
  Theory:                              HF                                                            
- Method for Coulomb:                  incore_df
- Method for exact exchange:           pre_transformed_df
+ Method for Coulomb:                  incore_df                                                     
+ Method for exact exchange:           pre_transformed_df                                            
  Using density-fitting approximations
  DF basis set:                        def2-svp-jkfit                                                
  Number of DF basis functions:      113
  Schwarz screening threshold:         1.00e-10
  Coulomb fitting method:              Cholesky                                                      
  Pre-transform 3-index DF integrals.
- Method for AO orthogonalization:     symmetric
+ Method for AO orthogonalization:     symmetric                                                     
  Threshold for linear dependence:     1.00e-07
 
  -----------------------
@@ -75,7 +80,7 @@
 
  --------------------------------------------------------------------------------
 
- End time:           Tue Nov 26 12:00:30 2019
- Total time elapsed: 0.074 s
+ End time:           Mon Dec  2 13:30:47 2019
+ Total time elapsed: 0.092 s
 
 ==================================================================================
