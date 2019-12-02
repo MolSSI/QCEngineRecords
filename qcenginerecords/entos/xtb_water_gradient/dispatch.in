@@ -1,0 +1,9 @@
+json_results :=
+gradient(
+  structure(
+    file = 'geometry.xyz'
+  )
+  xtb(
+    charge = 0.0
+  )
+)
