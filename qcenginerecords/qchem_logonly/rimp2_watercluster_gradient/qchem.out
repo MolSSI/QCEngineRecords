@@ -1,0 +1,329 @@
+gigan 127.0.1
+Q-Chem Developer Version! Running on 127.0.1.*
+                  Welcome to Q-Chem
+     A Quantum Leap Into The Future Of Chemistry
+
+
+ Q-Chem 4.4, Q-Chem, Inc., Pleasanton, CA (2016)
+
+ Y. Shao,  Z. Gan,  E. Epifanovsky,  A. T. B. Gilbert,  M. Wormit,  
+ J. Kussmann,  A. W. Lange,  A. Behn,  J. Deng,  X. Feng,  D. Ghosh,  
+ M. Goldey,  P. R. Horn,  L. D. Jacobson,  I. Kaliman,  F. Rob,  
+ R. Z. Khaliullin,  T. Kus,  A. Landau,  J. Liu,  E. I. Proynov,  Y. M. Rhee,  
+ R. M. Richard,  M. A. Rohrdanz,  R. P. Steele,  E. J. Sundstrom,  
+ H. L. Woodcock III,  P. M. Zimmerman,  D. Zuev,  B. Albrecht,  E. Alguire,  
+ B. Austin,  S. A. Baeppler,  G. J. O. Beran,  Y. A. Bernard,  
+ E. J. Berquist,  K. Brandhorst,  K. B. Bravaya,  S. T. Brown,  D. Casanova,  
+ C.-M. Chang,  Y. Chen,  S. H. Chien,  K. D. Closser,  M. P. Coons,  
+ D. L. Crittenden,  S. Dasgupta,  M. Diedenhofen,  R. A. DiStasio Jr.,  
+ H. Do,  A. D. Dutoi,  R. G. Edgar,  P.-T. Fang,  S. Fatehi,  Q. Feng,  
+ L. Fusti-Molnar,  A. Ghysels,  A. Golubeva-Zadorozhnaya,  J. Gomes,  
+ A. Gunina,  M. W. D. Hanson-Heine,  P. H. P. Harbach,  A. W. Hauser,  
+ J. E. Herr,  E. G. Hohenstein,  Z. C. Holden,  K. Hui,  T.-C. Jagau,  H. Ji,  
+ B. Kaduk,  K. Khistyaev,  Jaehoon Kim,  Jihan Kim,  R. A. King,  
+ P. Klunzinger,  K. Koh,  D. Kosenkov,  T. Kowalczyk,  C. M. Krauter,  
+ A. Kunitsa,  K. U. Lao,  A. Laurent,  K. V. Lawler,  J. Lee,  D. Lefrancois,  
+ S. Lehtola,  S. V. Levchenko,  C. Y. Lin,  Y.-S. Lin,  F. Liu,  E. Livshits,  
+ R. C. Lochan,  A. Luenser,  P. Manohar,  S. F. Manzer,  S.-P. Mao,  Y. Mao,  
+ N. Mardirossian,  A. V. Marenich,  L. A. Martinez-Martinez,  S. A. Maurer,  
+ N. J. Mayhall,  J.-M. Mewes,  A. F. Morrison,  K. Nanda,  T. S. Nguyen-Beck,  
+ C. M. Oana,  R. Olivares-Amaya,  D. P. O'Neill,  J. A. Parkhill,  
+ T. M. Perrine,  R. Peverati,  P. A. Pieniazek,  F. Plasser,  A. Prociuk,  
+ D. R. Rehn,  E. Rosta,  N. J. Russ,  N. Sergueev,  S. M. Sharada,  
+ S. Sharma,  D. W. Small,  A. Sodt,  T. Stauch,  T. Stein,  D. Stuck,  
+ Y.-C. Su,  A. J. W. Thom,  T. Tsuchimochi,  L. Vogt,  O. Vydrov,  T. Wang,  
+ M. A. Watson,  J. Wenzel,  A. White,  C. F. Williams,  V. Vanovschi,  
+ K. Yao,  S. Yeganeh,  S. R. Yost,  Z.-Q. You,  I. Y. Zhang,  X. Zhang,  
+ Y. Zhao,  B. R. Brooks,  G. K. L. Chan,  D. M. Chipman,  C. J. Cramer,  
+ W. A. Goddard III,  M. S. Gordon,  W. J. Hehre,  A. Klamt,  
+ H. F. Schaefer III,  M. W. Schmidt,  C. D. Sherrill,  D. G. Truhlar,  
+ A. Warshel,  X. Xu,  A. Aspuru-Guzik,  R. Baer,  A. T. Bell,  N. A. Besley,  
+ J.-D. Chai,  A. Dreuw,  B. D. Dunietz,  T. R. Furlani,  S. R. Gwaltney,  
+ C.-P. Hsu,  Y. Jung,  J. Kong,  D. S. Lambrecht,  W. Liang,  C. Ochsenfeld,  
+ V. A. Rassolov,  L. V. Slipchenko,  J. E. Subotnik,  T. Van Voorhis,  
+ J. M. Herbert,  A. I. Krylov,  P. M. W. Gill,  M. Head-Gordon
+
+ Contributors to earlier versions of Q-Chem not listed above: 
+ R. D. Adamson,  J. Baker,  E. F. C. Byrd,  A. K. Chakraborty,  C.-L. Cheng,  
+ H. Dachsel,  R. J. Doerksen,  G. Hawkins,  A. Heyden,  S. Hirata,  
+ G. Kedziora,  F. J. Keil,  C. Kelley,  P. P. Korambath,  W. Kurlancheek,  
+ A. M. Lee,  M. S. Lee,  D. Liotard,  I. Lotan,  P. E. Maslen,  N. Nair,  
+ D. Neuhauser,  R. Olson,  B. Peters,  J. Ritchie,  N. E. Schultz,  
+ N. Shenvi,  A. C. Simmonett,  K. S. Thanthiriwatte,  Q. Wu,  W. Zhang
+
+ Please cite Q-Chem as follows:
+ Y. Shao et al., Mol. Phys. 113, 184-215 (2015)
+ DOI: 10.1080/00268976.2014.952696
+
+ Q-Chem 4.4.2 for Intel X86 EM64T Linux
+
+ Parts of Q-Chem use Armadillo 5.200.1 (Boston Tea Smuggler).
+ http://arma.sourceforge.net/
+
+ Q-Chem begins on Mon Jul 10 21:07:28 2017  
+
+Host: 
+0
+
+     Scratch files written to /media/sdb1/kyao/scratch/H2O_augmented_more_cutoff5_rimp2_force_4//
+
+Checking the input file for inconsistencies... 	...done.
+
+--------------------------------------------------------------
+User input:
+--------------------------------------------------------------
+$molecule
+0 1
+O   0.4743661118  -2.9328397986  -0.0044798094
+H   -0.5036638643  -2.8448630485  0.150896345
+H   0.5568189355  -3.9143847153  -0.086043227
+O   4.7429549371  1.6121456373  0.0782510637
+H   4.2758583493  1.4139577895  -0.7939013424
+H   4.8036915337  2.5435441189  0.1428674765
+O   -5.0473075705  1.3958081206  0.0968810724
+H   -5.5714100248  0.5638638199  0.0645380438
+H   -4.9214027563  1.6369703613  -0.8435759092
+$end
+
+$rem
+jobtype force
+SYM_IGNORE True
+method RIMP2
+AUX_BASIS rimp2-cc-pvtz
+basis cc-pvtz
+mem_total 9999
+mem_static 2000
+$end
+
+
+--------------------------------------------------------------
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      O       0.4743661118    -2.9328397986    -0.0044798094
+    2      H      -0.5036638643    -2.8448630485     0.1508963450
+    3      H       0.5568189355    -3.9143847153    -0.0860432270
+    4      O       4.7429549371     1.6121456373     0.0782510637
+    5      H       4.2758583493     1.4139577895    -0.7939013424
+    6      H       4.8036915337     2.5435441189     0.1428674765
+    7      O      -5.0473075705     1.3958081206     0.0968810724
+    8      H      -5.5714100248     0.5638638199     0.0645380438
+    9      H      -4.9214027563     1.6369703613    -0.8435759092
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =    48.1674052135 hartrees
+ There are       15 alpha and       15 beta electrons
+ Requested basis set is cc-pVTZ
+ There are 66 shells and 174 basis functions
+
+ Total QAlloc Memory Limit   9999 MB
+ Mega-Array Size      1956 MB
+ MEM_STATIC part      2000 MB
+
+                       Distance Matrix (Angstroms)
+             O (  1)   H (  2)   H (  3)   O (  4)   H (  5)   H (  6)
+   H (  2)  0.994195
+   H (  3)  0.988373  1.524677
+   O (  4)  6.235751  6.884563  6.934931
+   H (  5)  5.828308  6.471015  6.536326  1.009013
+   H (  6)  6.982518  7.563268  7.732604  0.935611  1.559522
+   O (  7)  7.016862  6.215377  7.722554  9.792670  9.365642  9.917741
+   H (  8)  6.984491  6.108103  7.591612 10.367507  9.921102 10.562576
+   H (  9)  7.120503  6.371203  7.835963  9.708254  9.200099  9.816945
+             O (  7)   H (  8)
+   H (  8)  0.983799
+   H (  9)  0.979015  1.548786
+ 
+ Requested basis set is rimp2-cc-pVTZ
+ There are 129 shells and 423 basis functions
+ A cutoff of  1.0D-11 yielded    962 shell pairs
+ There are      6002 function pairs (      7502 Cartesian)
+ 
+ -------------------------------------------------------
+ OpenMP Integral Computing Module                       
+ Release: version 1.0, May 2013, Q-Chem Inc. Pittsburgh 
+ -------------------------------------------------------
+ Integral Job Info:
+ Integral job number is                      11
+ Integral operator is                         1
+ short-range coefficients                     0
+ long-range coefficients              100000000
+ Omega coefficients                           0
+ if combine SR and LR in K                    0
+ Integral screening is                        0
+ Integral computing path is                   2
+ max size of driver memory is            800000
+ size of driver memory is                776718
+ size of scratch memory is              4556032
+ max col of scratch BK array              10000
+ max len of scratch array in speh3          662
+ max len of scratch index in speh4           32
+ max int batch size is                      520
+ min int batch size is                       52
+ fixed nKL is                                52
+ max L of basis functions is                  3
+ order of int derivative is                   0
+ number of shells is                         66
+ number of basis is                         195
+ number of cartesian basis is               195
+ number of contracted shell pairs           962
+ number of primitive shell pairs           2861
+ maxK2 (contraction) of shell pair           49
+ max number of K2 of shell pair               1
+ max number of CS2 of shell pair            171
+ max number of PS2 of shell pair            441
+ mem total for path MDJ                   36302
+ -------------------------------------------------------
+ Smallest overlap matrix eigenvalue = 2.57E-03
+
+ Scale SEOQF with 1.000000e-02/1.000000e-01/1.000000e+00
+
+ Standard Electronic Orientation quadrupole field applied
+ Nucleus-field energy     =     0.0000000101 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ A restricted Hartree-Fock SCF calculation will be
+ performed using Pulay DIIS extrapolation
+ SCF converges when DIIS error is below 1.0E-08
+ ---------------------------------------
+  Cycle       Energy         DIIS Error
+ ---------------------------------------
+    1    -227.6477459168      3.25E-02
+    2    -228.0555855328      5.87E-03
+    3    -228.1317264029      3.46E-03
+    4    -228.1591707972      3.30E-04
+    5    -228.1596635383      9.61E-05
+    6    -228.1597251036      2.13E-05
+    7    -228.1597287338      8.04E-06
+    8    -228.1597289797      2.07E-06
+    9    -228.1597290090      2.49E-07
+   10    -228.1597290095      4.28E-08
+   11    -228.1597290095      2.13E-08
+   12    -228.1597290095      5.49E-09 Convergence criterion met
+ ---------------------------------------
+ SCF time:  CPU 8.43 s  wall 8.65 s
+ SCF   energy in the final basis set = -228.1597290095
+ Total energy in the final basis set = -228.1597290095
+Now performing a force calculation at the RI-MP2 level of theory.
+
+ 
+
+ Components of the RI-MP2 Correlation Energy:
+ RI-MP2 ENERGY (aa|aa)   	=              -0.1004379668 au
+ RI-MP2 ENERGY (aa|bb)   	=              -0.3147627012 au
+ RI-MP2 ENERGY (bb|aa)   	=              -0.3147627012 au
+ RI-MP2 ENERGY (bb|bb)   	=              -0.1004379668 au
+ RI-MP2 SINGLES ENERGY          =              -0.0000000000 au
+
+ RI-MP2 CORRELATION ENERGY	=              -0.8304013361 au
+ RI-MP2 TOTAL ENERGY		=            -228.9901303457 au
+
+  Entering Z-vector solver.
+   1         0           1      0.000160    0.000160
+   2         0           1      0.000064    0.000064
+   3         0           1      0.000010    0.000010
+   4         0           1      0.000002    0.000002
+   5         1           0      0.000000    0.000000    Roots Converged
+ 
+ --------------------------------------------------------------
+ 
+                    Orbital Energies (a.u.)
+ --------------------------------------------------------------
+ 
+ Alpha MOs
+ -- Occupied --
+-20.561 -20.561 -20.550  -1.336  -1.331  -1.330  -0.699  -0.698
+ -0.683  -0.578  -0.576  -0.564  -0.505  -0.502  -0.496
+ -- Virtual --
+  0.137   0.139   0.147   0.200   0.203   0.209   0.525   0.532
+  0.541   0.587   0.597   0.598   0.671   0.674   0.680   0.778
+  0.785   0.787   0.792   0.793   0.803   0.810   0.812   0.816
+  0.855   0.862   0.864   0.937   0.950   0.969   1.144   1.149
+  1.164   1.182   1.190   1.190   1.487   1.489   1.502   1.524
+  1.528   1.587   2.021   2.026   2.041   2.046   2.054   2.077
+  2.084   2.086   2.103   2.163   2.164   2.170   2.241   2.244
+  2.252   2.562   2.574   2.603   2.941   2.945   2.953   3.322
+  3.351   3.381   3.456   3.476   3.499   3.560   3.565   3.592
+  3.623   3.628   3.632   3.768   3.778   3.798   3.848   3.848
+  3.853   3.877   3.888   3.895   3.945   3.949   3.951   4.008
+  4.014   4.028   4.049   4.062   4.070   4.155   4.160   4.189
+  4.247   4.272   4.295   4.309   4.347   4.397   4.515   4.526
+  4.545   4.651   4.661   4.681   4.811   4.812   4.824   5.059
+  5.073   5.149   5.235   5.240   5.250   5.499   5.514   5.539
+  6.002   6.005   6.022   6.481   6.489   6.492   6.781   6.785
+  6.832   6.866   6.870   6.892   6.930   6.936   6.950   6.968
+  6.979   7.002   7.022   7.039   7.137   7.152   7.162   7.188
+  7.194   7.201   7.240   7.415   7.435   7.457   7.733   7.734
+  7.768   8.164   8.183   8.211  12.312  12.482  12.672
+ --------------------------------------------------------------
+ 
+          Ground-State Mulliken Net Atomic Charges
+
+     Atom                 Charge (a.u.)
+  ----------------------------------------
+      1 O                    -0.476997
+      2 H                     0.239227
+      3 H                     0.237771
+      4 O                    -0.483401
+      5 H                     0.252607
+      6 H                     0.230793
+      7 O                    -0.483089
+      8 H                     0.241486
+      9 H                     0.241603
+  ----------------------------------------
+  Sum of atomic charges =    -0.000000
+
+ -----------------------------------------------------------------
+                    Cartesian Multipole Moments
+ -----------------------------------------------------------------
+    Charge (ESU x 10^10)
+                -0.0000
+    Dipole Moment (Debye)
+         X      -2.7065      Y      -1.1319      Z      -2.7433
+       Tot       4.0164
+    Quadrupole Moments (Debye-Ang)
+        XX     -19.7900     XY      13.1110     YY      -6.0171
+        XZ       2.0001     YZ      -4.2975     ZZ     -18.6277
+    Octopole Moments (Debye-Ang^2)
+       XXX     -97.5936    XXY      -8.2660    XYY      30.7759
+       YYY     -35.5665    XXZ     -56.6681    XYZ      10.4645
+       YYZ      -6.5139    XZZ      -2.2313    YZZ       5.3230
+       ZZZ      -3.0239
+    Hexadecapole Moments (Debye-Ang^3)
+      XXXX   -1930.3745   XXXY     238.3792   XXYY    -342.3145
+      XYYY     101.9715   YYYY    -259.3469   XXXZ      95.5524
+      XXYZ     -84.7204   XYYZ      20.3975   YYYZ      -2.3465
+      XXZZ    -284.2634   XYZZ      -1.5460   YYZZ     -99.0410
+      XZZZ       2.5385   YZZZ      -4.6974   ZZZZ     -18.3781
+ -----------------------------------------------------------------
+ DrvMan is completing analytic gradient of the MP2 energy
+ MP2 relaxed dipole moment
+            1
+    1  -1.0648118
+    2  -0.4453291
+    3  -1.0792836
+	Magnitude:	 1.580 au	 4.016 Debye
+ MP2 energy read as -228.990130
+ Full Analytical Gradient of MP2 Energy (in au.)
+             1             2             3             4             5
+    1    0.03179256   -0.03150398   -0.00028066    0.02020104   -0.02137712
+    2    0.02655193    0.00026673   -0.02685441    0.03859178   -0.01413140
+    3   -0.00255660    0.00460659   -0.00198344    0.03695784   -0.04029442
+             6             7             8             9
+    1    0.00113047    0.00942196   -0.01330380    0.00391952
+    2   -0.02444255    0.01449854   -0.02148876    0.00700814
+    3    0.00324788    0.01778364    0.00157373   -0.01933521
+ Gradient time:  CPU 0.11 s  wall 0.13 s
+Archival summary:
+1\1\gigan\JobtypUnspecified\ProcedureUnspecified\BasisUnspecified\36\kyao\MonJul1021:07:512017MonJul1021:07:512017\0\\#,JobtypUnspecified,ProcedureUnspecified,BasisUnspecified,\\0,1\O\H,1,0.988373\H,1,0.994195,2,100.535\H,1,5.82831,2,132.459,3,-173.216,0\O,4,1.00901,1,109.351,2,-90.3362,0\H,5,0.935611,4,106.576,1,-138.848,0\H,3,6.1081,1,149.696,2,-159.412,0\O,7,0.983799,3,91.6885,1,-21.4175,0\H,8,0.979015,7,104.196,3,92.1956,0\\HF=-228.159729\\@
+
+ Total job time:  22.76s(wall), 20.62s(cpu) 
+ Mon Jul 10 21:07:51 2017
+
+        *************************************************************
+        *                                                           *
+        *  Thank you very much for using Q-Chem.  Have a nice day.  *
+        *                                                           *
+        *************************************************************
+
+

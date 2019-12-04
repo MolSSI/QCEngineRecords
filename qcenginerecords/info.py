@@ -97,3 +97,7 @@ INFO["qchem"] = build_test_info("qchem", {
     "infiles.msgpack",
     "outfiles.msgpack",
 })
+
+INFO["qchem_logonly"] = build_test_info("qchem_logonly", {
+    "qchem.out",
+})
