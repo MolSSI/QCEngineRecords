@@ -46,8 +46,6 @@
   "properties": {
     "scf_total_energy": -5.7659905206521511,
     "scf_iterations": 7,
-    "calcinfo_nalpha": 4,
-    "calcinfo_nbeta": 4,
     "calcinfo_nbasis": 8,
     "calcinfo_natom": 3
   },
