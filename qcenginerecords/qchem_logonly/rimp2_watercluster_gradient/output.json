@@ -144,9 +144,7 @@
   },
   "keywords": {
     "sym_ignore": "True",
-    "aux_basis": "rimp2-cc-pvtz",
-    "mem_total": "9999",
-    "mem_static": "2000"
+    "aux_basis": "rimp2-cc-pvtz"
   },
   "protocols": {},
   "extras": {},
