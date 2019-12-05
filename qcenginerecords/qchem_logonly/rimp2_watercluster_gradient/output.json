@@ -144,7 +144,7 @@
   },
   "keywords": {
     "sym_ignore": "True",
-    "aux_basis": "rimp2-cc-pvtz",
+    "aux_basis": "rimp2-cc-pvtz"
   },
   "protocols": {},
   "extras": {},
