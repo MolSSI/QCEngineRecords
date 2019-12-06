@@ -495,7 +495,8 @@
     "nuclear_repulsion_energy": 1289.1697680218,
     "return_energy": -1070.2193075675,
     "scf_total_energy": -1070.2193075675,
-    "scf_iterations": 13
+    "scf_iterations": 13,
+    "scf_dipole_moment": [-1.62175893, -0.04980827, -0.76978567]
   },
   "wavefunction": null,
   "return_result": [
