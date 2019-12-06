@@ -164,6 +164,7 @@
     "return_energy": -228.9901303457,
     "scf_total_energy": -228.1597290095,
     "scf_iterations": 12,
+    "scf_dipole_moment": [-1.06481903, -0.44532373, -1.07929727],
     "mp2_same_spin_correlation_energy": -0.2008759336,
     "mp2_opposite_spin_correlation_energy": -0.6295254024,
     "mp2_singles_energy": 0,
