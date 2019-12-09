@@ -119,10 +119,11 @@ $end
 
 $rem
 jobtype force
-basis 6-311g**
+basis 6-311g**  !test comment
 method wB97X-D
 thresh 11
 symmetry false
+! another test comment
 sym_ignore true
 $end
 --------------------------------------------------------------
