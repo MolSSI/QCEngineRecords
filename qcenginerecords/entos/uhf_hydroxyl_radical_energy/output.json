@@ -32,5 +32,8 @@
     "calcinfo_nbasis": 19,
     "calcinfo_natom": 2
   },
+  "extras": {
+    "scf_converged": true
+  },
   "error": null
 }
