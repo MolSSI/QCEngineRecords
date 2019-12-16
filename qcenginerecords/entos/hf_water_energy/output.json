@@ -40,6 +40,9 @@
   "keywords": {
     "df": "def2-svp-jkfit"
   },
+  "protocols": {
+    "wavefunction": "all"
+  },
   "provenance": {
     "creator": "QCElemental",
     "version": "v0.2.6",
