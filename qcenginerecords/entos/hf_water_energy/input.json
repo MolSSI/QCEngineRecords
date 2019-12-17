@@ -11,6 +11,9 @@
     "keywords": {
         "df": "def2-svp-jkfit"
     },
+    "protocols": {
+        "wavefunction": "all"
+    },
     "model": {
         "method": "HF",
         "basis": "def2-svp"

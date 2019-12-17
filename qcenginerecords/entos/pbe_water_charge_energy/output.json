@@ -51,7 +51,12 @@
   "return_result": -7.5823009117205473e+01,
   "properties": {
     "scf_total_energy": -7.5823009117205473e+01,
-    "scf_iterations": 8
+    "scf_iterations": 8,
+    "calcinfo_nbasis": 24,
+    "calcinfo_natom": 3
+  },
+  "extras": {
+    "scf_converged": true
   },
   "error": null
 }
