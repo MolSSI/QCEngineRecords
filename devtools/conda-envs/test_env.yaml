@@ -8,7 +8,7 @@ dependencies:
 
     # Required depends
   - qcelemental
-  - pydantic >= 0.20
+  - pydantic>=1.8.2
 
     # Testing
   - pytest

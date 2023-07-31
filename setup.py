@@ -33,7 +33,7 @@ setup(
     # author_email='me@place.org',      # Author email
     # url='http://www.my_package.com',  # Website
     install_requires=[
-        "pydantic >= 0.20",
+        "pydantic >= 1.8.2",
         'msgpack >= 0.6.1',
         'qcelemental >= 0.11.0',
     ],              # Required packages, pulls from pip if needed; do not use for Conda deployment
