@@ -1,7 +1,10 @@
 import os
 import qcelemental as qcel
 from typing import Dict, List, Set
-from pydantic import BaseModel
+try:
+    from pydantic.v1 import BaseModel
+except ImportError:
+    from pydantic import BaseModel
 
 _basedir = os.path.dirname(os.path.abspath(__file__))
 
